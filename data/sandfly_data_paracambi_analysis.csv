@@ -1,0 +1,583 @@
+﻿id,mes,ano,bairro,morador,casa,lat_campo,lon_campo,point_id,point_year_id,distancia_casa_mata,lta,area,tipo,local,especie,total,femeas,machos,dout_mest
+1,01/06/2002,2002,Mutirão,Antônio,antigo,-22.61228,-43.681428,49,49_2002,500-1000,recente,rural,manual,parede_externa,L. intermedia,3,0,3,doutorado
+2,01/06/2002,2002,Mutirão,Antônio,antigo,-22.61228,-43.681428,49,49_2002,500-1000,recente,rural,manual,arvore,L. intermedia,10,0,10,doutorado
+3,01/06/2002,2002,Mutirão,Vacil,antigo,-22.61584,-43.686348,45,45_2002,200-500,recente,rural,manual,parede_externa,L. intermedia,5,1,4,doutorado
+4,01/06/2002,2002,Mutirão,Vacil,antigo,-22.61584,-43.686348,45,45_2002,200-500,recente,rural,manual,arvore,L. intermedia,36,4,32,doutorado
+5,01/06/2002,2002,Mutirão,Valdelino,antigo,-22.614141,-43.684693,47,47_2002,500-1000,recente,rural,manual,parede_externa,L. intermedia,5,0,5,doutorado
+6,01/06/2002,2002,Mutirão,Valdelino,antigo,-22.614141,-43.684693,47,47_2002,500-1000,recente,rural,manual,arvore,L. intermedia,20,0,20,doutorado
+7,01/06/2002,2002,Mutirão,Josilda,antigo,-22.602335,-43.665134,51,51_2002,200-500,recente,rural,manual,parede_externa,L. intermedia,5,0,5,doutorado
+8,01/06/2002,2002,Mutirão,Josilda,antigo,-22.602335,-43.665134,51,51_2002,200-500,recente,rural,manual,arvore,L. intermedia,30,2,28,doutorado
+9,01/06/2002,2002,Mutirão,Josilda,antigo,-22.602335,-43.665134,51,51_2002,200-500,recente,rural,manual,chiqueiro,L. intermedia,7,0,7,doutorado
+10,01/12/2002,2002,Mutirão,Ivan,antigo,-22.607612,-43.671181,50,50_2002,200-500,recente,rural,manual,parede_externa,L. intermedia,8,2,6,doutorado
+11,01/12/2002,2002,Mutirão,Ivan,antigo,-22.607612,-43.671181,50,50_2002,200-500,recente,rural,manual,galinheiro,L. intermedia,27,12,15,doutorado
+12,01/12/2002,2002,Mutirão,Ivan,antigo,-22.607612,-43.671181,50,50_2002,200-500,recente,rural,manual,galinheiro,L. migonei,2,0,2,doutorado
+13,01/12/2002,2002,Mutirão,Ivan,antigo,-22.607612,-43.671181,50,50_2002,200-500,recente,rural,luminosa,galinheiro,L. intermedia,87,35,52,doutorado
+14,01/12/2002,2002,Mutirão,Ivan,antigo,-22.607612,-43.671181,50,50_2002,200-500,recente,rural,luminosa,galinheiro,L. migonei,1,0,1,doutorado
+15,01/12/2002,2002,Mutirão,Neuza,antigo,-22.61555,-43.685668,46,46_2002,500-1000,recente,rural,manual,parede_externa,L. intermedia,5,5,0,doutorado
+16,01/12/2002,2002,Mutirão,Neuza,antigo,-22.61555,-43.685668,46,46_2002,500-1000,recente,rural,manual,arvore,L. intermedia,19,15,4,doutorado
+17,01/12/2002,2002,Mutirão,Neuza,antigo,-22.61555,-43.685668,46,46_2002,500-1000,recente,rural,luminosa,galinheiro,L. intermedia,67,30,37,doutorado
+18,01/12/2002,2002,Mutirão,Neuza,antigo,-22.61555,-43.685668,46,46_2002,500-1000,recente,rural,luminosa,galinheiro,L. migonei,1,0,1,doutorado
+19,01/12/2002,2002,Mutirão,Neuza,antigo,-22.61555,-43.685668,46,46_2002,500-1000,recente,rural,luminosa,galinheiro,L. sordelli,1,1,0,doutorado
+20,01/06/2002,2002,Sabugo,Ana Paula,antigo,-22.616243,-43.725943,19,19_2002,500-1000,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+21,01/06/2002,2002,Sabugo,Ana Paula,antigo,-22.616243,-43.725943,19,19_2002,500-1000,antigo,rural,luminosa,parede_externa,negativa,0,0,0,doutorado
+22,01/09/2002,2002,Sabugo,Ana Paula,antigo,-22.616243,-43.725943,19,19_2002,500-1000,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+23,01/09/2002,2002,Sabugo,Ana Paula,antigo,-22.616243,-43.725943,19,19_2002,500-1000,antigo,rural,luminosa,parede_externa,negativa,0,0,0,doutorado
+24,01/06/2002,2002,Sabugo,Valdemir,antigo,-22.611925,-43.73299,15,15_2002,0-200,antigo,rural,manual,parede_externa,L. intermedia,11,2,9,doutorado
+25,01/06/2002,2002,Sabugo,Valdemir,antigo,-22.611925,-43.73299,15,15_2002,0-200,antigo,rural,manual,arvore,L. intermedia,14,4,10,doutorado
+26,01/06/2002,2002,Sabugo,Valdemir,antigo,-22.611925,-43.73299,15,15_2002,0-200,antigo,rural,manual,arvore,L. migonei,1,0,1,doutorado
+27,01/06/2002,2002,Sabugo,Valdemir,antigo,-22.611925,-43.73299,15,15_2002,0-200,antigo,rural,manual,chiqueiro,L. intermedia,8,3,5,doutorado
+28,01/06/2002,2002,Sabugo,Valdemir,antigo,-22.611925,-43.73299,15,15_2002,0-200,antigo,rural,luminosa,chiqueiro,L. intermedia,18,8,10,doutorado
+29,01/06/2002,2002,Sabugo,Valdemir,antigo,-22.611925,-43.73299,15,15_2002,0-200,antigo,rural,luminosa,chiqueiro,L. migonei,3,1,2,doutorado
+30,01/06/2002,2002,Sabugo,Emilson,antigo,-22.614982,-43.718786,24,24_2002,500-1000,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+31,01/06/2002,2002,Sabugo,Emilson,antigo,-22.614982,-43.718786,24,24_2002,500-1000,antigo,rural,luminosa,parede_externa,negativa,0,0,0,doutorado
+32,01/09/2002,2002,Sabugo,Emilson,antigo,-22.614982,-43.718786,24,24_2002,500-1000,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+33,01/09/2002,2002,Sabugo,Emilson,antigo,-22.614982,-43.718786,24,24_2002,500-1000,antigo,rural,luminosa,parede_externa,negativa,0,0,0,doutorado
+34,01/06/2002,2002,Sabugo,Izidoro,antigo,-22.610285,-43.735765,14,14_2002,0-200,antigo,rural,manual,parede_externa,L. intermedia,8,2,6,doutorado
+35,01/06/2002,2002,Sabugo,Izidoro,antigo,-22.610285,-43.735765,14,14_2002,0-200,antigo,rural,manual,bananal,L. intermedia,34,8,26,doutorado
+36,01/06/2002,2002,Sabugo,Izidoro,antigo,-22.610285,-43.735765,14,14_2002,0-200,antigo,rural,manual,bananal,L. migonei,3,0,3,doutorado
+37,01/06/2002,2002,Sabugo,Izidoro,antigo,-22.610285,-43.735765,14,14_2002,0-200,antigo,rural,luminosa,bananal,L. intermedia,357,154,203,doutorado
+38,01/06/2002,2002,Sabugo,Izidoro,antigo,-22.610285,-43.735765,14,14_2002,0-200,antigo,rural,luminosa,bananal,L. migonei,15,6,9,doutorado
+39,01/06/2002,2002,Sabugo,Izidoro,antigo,-22.610285,-43.735765,14,14_2002,0-200,antigo,rural,luminosa,bananal,L. fischeri,3,3,0,doutorado
+40,01/06/2002,2002,Cascata,Maeli,antigo,-22.597757,-43.71385,34,34_2002,500-1000,antigo,semiurbano,manual,parede_externa,negativa,0,0,0,doutorado
+41,01/06/2002,2002,Cascata,Maeli,antigo,-22.597757,-43.71385,34,34_2002,500-1000,antigo,semiurbano,manual,bananal,negativa,0,0,0,doutorado
+42,01/06/2002,2002,Cascata,Maeli,antigo,-22.597757,-43.71385,34,34_2002,500-1000,antigo,semiurbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+43,01/06/2002,2002,Cascata,Maeli,antigo,-22.597757,-43.71385,34,34_2002,500-1000,antigo,semiurbano,luminosa,bananal,negativa,0,0,0,doutorado
+44,01/12/2002,2002,Cascata,Maeli,antigo,-22.597757,-43.71385,34,34_2002,500-1000,antigo,semiurbano,manual,bananal,L. intermedia,22,10,12,doutorado
+45,01/12/2002,2002,Cascata,Maeli,antigo,-22.597757,-43.71385,34,34_2002,500-1000,antigo,semiurbano,luminosa,bananal,L. intermedia,71,36,35,doutorado
+46,01/12/2002,2002,Cascata,Maeli,antigo,-22.597757,-43.71385,34,34_2002,500-1000,antigo,semiurbano,luminosa,bananal,L. migonei,1,1,0,doutorado
+47,01/12/2002,2002,Cascata,Maeli,antigo,-22.597757,-43.71385,34,34_2002,500-1000,antigo,semiurbano,luminosa,bananal,B. brumpti,1,1,0,doutorado
+48,01/06/2002,2002,Cascata,Maximiliano,antigo,-22.598947,-43.708715,38,38_2002,0-200,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+49,01/06/2002,2002,Cascata,Maximiliano,antigo,-22.598947,-43.708715,38,38_2002,0-200,antigo,rural,manual,arvore,negativa,0,0,0,doutorado
+50,01/06/2002,2002,Cascata,Maximiliano,antigo,-22.598947,-43.708715,38,38_2002,0-200,antigo,rural,luminosa,arvore,L. intermedia,13,1,12,doutorado
+51,01/06/2002,2002,Cabral,Leopoldina,antigo,-22.698184,-43.768595,4,4_2002,>1000,antigo,rural,manual,parede_externa,L. intermedia,8,5,3,doutorado
+52,01/06/2002,2002,Cabral,Leopoldina,antigo,-22.698184,-43.768595,4,4_2002,>1000,antigo,rural,luminosa,galinheiro,L. intermedia,3,2,1,doutorado
+53,01/06/2002,2002,Cabral,Arlete,antigo,-22.697469,-43.752553,8,8_2002,>1000,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+54,01/06/2002,2002,Cabral,Arlete,antigo,-22.697469,-43.752553,8,8_2002,>1000,antigo,rural,manual,bananal,negativa,0,0,0,doutorado
+55,01/12/2002,2002,Cabral,Arlete,antigo,-22.697469,-43.752553,8,8_2002,>1000,antigo,rural,luminosa,bananal,L. intermedia,11,4,7,doutorado
+56,01/06/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,manual,parede_externa,negativa,0,0,0,doutorado
+57,01/06/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,manual,arvore,negativa,0,0,0,doutorado
+58,01/06/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,manual,bananal,negativa,0,0,0,doutorado
+59,01/06/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+60,01/06/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,luminosa,arvore,negativa,0,0,0,doutorado
+61,01/06/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,luminosa,bananal,negativa,0,0,0,doutorado
+62,01/12/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,manual,parede_externa,negativa,0,0,0,doutorado
+63,01/12/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,manual,arvore,negativa,0,0,0,doutorado
+64,01/12/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,manual,bananal,negativa,0,0,0,doutorado
+65,01/12/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+66,01/12/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,luminosa,arvore,negativa,0,0,0,doutorado
+67,01/12/2002,2002,Centro,Clenice,antigo,-22.60797,-43.71059,37,37_2002,500-1000,antigo,semiurbano,luminosa,bananal,negativa,0,0,0,doutorado
+68,01/06/2002,2002,Vila Nova,M. Teix (Maria Teixeira),antigo,-22.61128,-43.717347,28,28_2002,0-200,antigo,semiurbano,manual,parede_externa,negativa,0,0,0,doutorado
+69,01/06/2002,2002,Vila Nova,M. Teix (Maria Teixeira),antigo,-22.61128,-43.717347,28,28_2002,0-200,antigo,semiurbano,manual,bananal,negativa,0,0,0,doutorado
+70,01/06/2002,2002,Vila Nova,M. Teix (Maria Teixeira),antigo,-22.61128,-43.717347,28,28_2002,0-200,antigo,semiurbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+71,01/06/2002,2002,Vila Nova,M. Teix (Maria Teixeira),antigo,-22.61128,-43.717347,28,28_2002,0-200,antigo,semiurbano,luminosa,bananal,negativa,0,0,0,doutorado
+72,01/09/2001,2001,Km 9,M José (Maria José),antigo,-22.65842,-43.76306,5,5_2001,>1000,antigo,rural,manual,parede_externa,L. intermedia,4,3,1,doutorado
+73,01/09/2001,2001,Km 9,M José (Maria José),antigo,-22.65842,-43.76306,5,5_2001,>1000,antigo,rural,manual,parede_externa,L. migonei,1,0,1,doutorado
+74,01/09/2001,2001,Km 9,M José (Maria José),antigo,-22.65842,-43.76306,5,5_2001,>1000,antigo,rural,manual,galinheiro,L. intermedia,24,17,7,doutorado
+75,01/08/2002,2002,Km 9,M José (Maria José),antigo,-22.65842,-43.76306,5,5_2002,>1000,antigo,rural,manual,galinheiro,L. migonei,2,0,2,doutorado
+76,01/08/2002,2002,Km 9,M José (Maria José),antigo,-22.65842,-43.76306,5,5_2002,>1000,antigo,rural,manual,galinheiro,L. whitmani,2,2,0,doutorado
+77,01/08/2002,2002,Km 9,M José (Maria José),antigo,-22.65842,-43.76306,5,5_2002,>1000,antigo,rural,luminosa,galinheiro,L. intermedia,8,6,2,doutorado
+78,01/08/2002,2002,Km 9,M José (Maria José),antigo,-22.65842,-43.76306,5,5_2002,>1000,antigo,rural,luminosa,galinheiro,L. migonei,3,1,2,doutorado
+79,01/08/2002,2002,Km 9,M José (Maria José),antigo,-22.65842,-43.76306,5,5_2002,>1000,antigo,rural,luminosa,galinheiro,L. whitmani,1,1,0,doutorado
+80,01/06/2002,2002,Saudoso,Sirlei,antigo,-22.629394,-43.772783,3,3_2002,200-500,recente,rural,manual,parede_externa,negativa,0,0,0,doutorado
+81,01/06/2002,2002,Saudoso,Sirlei,antigo,-22.629394,-43.772783,3,3_2002,200-500,recente,rural,manual,arvore,negativa,0,0,0,doutorado
+82,01/09/2001,2001,Saudoso,Sirlei,antigo,-22.629394,-43.772783,3,3_2001,200-500,recente,rural,manual,bananal,L. intermedia,9,6,3,doutorado
+83,01/09/2001,2001,Saudoso,Sirlei,antigo,-22.629394,-43.772783,3,3_2001,200-500,recente,rural,luminosa,bananal,L. intermedia,73,20,53,doutorado
+84,01/09/2001,2001,Saudoso,Sirlei,antigo,-22.629394,-43.772783,3,3_2001,200-500,recente,rural,luminosa,bananal,L. migonei,3,3,0,doutorado
+85,01/09/2001,2001,Saudoso,Sirlei,antigo,-22.629394,-43.772783,3,3_2001,200-500,recente,rural,luminosa,bananal,L. whitmani,2,2,0,doutorado
+86,01/12/2002,2002,BNH,Lino,antigo,-22.609038,-43.690767,44,44_2002,0-200,recente,rural,manual,parede_externa,negativa,0,0,0,doutorado
+87,01/12/2002,2002,BNH,Lino,antigo,-22.609038,-43.690767,44,44_2002,0-200,recente,rural,manual,arvore,negativa,0,0,0,doutorado
+88,01/12/2002,2002,BNH,Lino,antigo,-22.609038,-43.690767,44,44_2002,0-200,recente,rural,manual,galinheiro,negativa,0,0,0,doutorado
+89,01/01/2003,2003,BNH,Lino,antigo,-22.609038,-43.690767,44,44_2003,0-200,recente,rural,luminosa,galinheiro,L. intermedia,11,8,3,doutorado
+90,01/01/2003,2003,BNH,Lino,antigo,-22.609038,-43.690767,44,44_2003,0-200,recente,rural,luminosa,galinheiro,L. migonei,6,0,6,doutorado
+91,01/01/2003,2003,BNH,Lino,antigo,-22.609038,-43.690767,44,44_2003,0-200,recente,rural,luminosa,bananal,L. intermedia,12,6,6,doutorado
+92,01/01/2003,2003,BNH,Lino,antigo,-22.609038,-43.690767,44,44_2003,0-200,recente,rural,luminosa,bananal,L. migonei,3,0,3,doutorado
+93,01/06/2002,2002,Lages,Valdir,antigo,-22.630511,-43.698581,43,43_2002,>1000,antigo,urbano,manual,parede_externa,negativa,0,0,0,doutorado
+94,01/06/2002,2002,Lages,Valdir,antigo,-22.630511,-43.698581,43,43_2002,>1000,antigo,urbano,manual,arvore,negativa,0,0,0,doutorado
+95,01/06/2002,2002,Lages,Valdir,antigo,-22.630511,-43.698581,43,43_2002,>1000,antigo,urbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+96,01/06/2002,2002,Lages,Valdir,antigo,-22.630511,-43.698581,43,43_2002,>1000,antigo,urbano,luminosa,arvore,negativa,0,0,0,doutorado
+97,01/09/2002,2002,Lages,Valdir,antigo,-22.630511,-43.698581,43,43_2002,>1000,antigo,urbano,manual,parede_externa,negativa,0,0,0,doutorado
+98,01/09/2002,2002,Lages,Valdir,antigo,-22.630511,-43.698581,43,43_2002,>1000,antigo,urbano,manual,arvore,negativa,0,0,0,doutorado
+99,01/09/2002,2002,Lages,Valdir,antigo,-22.630511,-43.698581,43,43_2002,>1000,antigo,urbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+100,01/09/2002,2002,Lages,Valdir,antigo,-22.630511,-43.698581,43,43_2002,>1000,antigo,urbano,luminosa,arvore,negativa,0,0,0,doutorado
+101,01/06/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,manual,parede_externa,negativa,0,0,0,doutorado
+102,01/06/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,manual,arvore,negativa,0,0,0,doutorado
+103,01/06/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,manual,bananal,negativa,0,0,0,doutorado
+104,01/06/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+105,01/06/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,luminosa,arvore,negativa,0,0,0,doutorado
+106,01/06/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,luminosa,bananal,negativa,0,0,0,doutorado
+107,01/09/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,manual,parede_externa,negativa,0,0,0,doutorado
+108,01/09/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,manual,arvore,negativa,0,0,0,doutorado
+109,01/09/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,manual,bananal,negativa,0,0,0,doutorado
+110,01/09/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+111,01/09/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,luminosa,arvore,negativa,0,0,0,doutorado
+112,01/09/2002,2002,Amapá,Terezinha,antigo,-22.617367,-43.717307,29,29_2002,500-1000,antigo,semiurbano,luminosa,bananal,negativa,0,0,0,doutorado
+113,01/06/2002,2002,Sabugo,Aliezer,ex-domicilio,-22.608915,-43.738501,11,11_2002,0-200,antigo,rural,luminosa,galinheiro,L. intermedia,457,193,264,doutorado
+114,01/06/2002,2002,Sabugo,Aliezer,ex-domicilio,-22.608915,-43.738501,11,11_2002,0-200,antigo,rural,luminosa,galinheiro,L. migonei,80,14,66,doutorado
+115,01/06/2002,2002,Sabugo,Aliezer,ex-domicilio,-22.608915,-43.738501,11,11_2002,0-200,antigo,rural,luminosa,galinheiro,L. fischeri,49,49,0,doutorado
+116,01/06/2002,2002,Sabugo,Aliezer,ex-domicilio,-22.608915,-43.738501,11,11_2002,0-200,antigo,rural,luminosa,galinheiro,L. pelloni,6,0,6,doutorado
+117,01/06/2002,2002,Sabugo,Samuel,ex-domicilio,-22.609049,-43.730223,17,17_2002,0-200,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+118,01/06/2002,2002,Sabugo,Samuel,ex-domicilio,-22.609049,-43.730223,17,17_2002,0-200,antigo,rural,manual,arvore,negativa,0,0,0,doutorado
+119,01/06/2002,2002,Sabugo,Samuel,ex-domicilio,-22.609049,-43.730223,17,17_2002,0-200,antigo,rural,luminosa,arvore,L. intermedia,35,0,35,doutorado
+120,01/06/2002,2002,São José,J. Amâncio (José Amâncio),ex-domicilio,-22.588818,-43.741062,10,10_2002,200-500,antigo,rural,manual,arvore,L. intermedia,5,3,2,doutorado
+121,01/06/2002,2002,São José,J. Amâncio (José Amâncio),ex-domicilio,-22.588818,-43.741062,10,10_2002,200-500,antigo,rural,luminosa,arvore,L. intermedia,11,6,5,doutorado
+122,01/06/2002,2002,São José,Sebastião,ex-domicilio,-22.592219,-43.742962,9,9_2002,0-200,antigo,rural,manual,,negativa,0,0,0,doutorado
+123,01/06/2002,2002,São José,Sebastião,ex-domicilio,-22.592219,-43.742962,9,9_2002,0-200,antigo,rural,luminosa,bananal,L. intermedia,3,1,2,doutorado
+124,01/06/2002,2002,São José,Sebastião,ex-domicilio,-22.592219,-43.742962,9,9_2002,0-200,antigo,rural,luminosa,bananal,L. whitmani,1,0,1,doutorado
+125,01/06/2002,2002,Saudoso,Nilton,ex-domicilio,-22.627845,-43.780242,2,2_2002,0-200,recente,rural,manual,parede_externa,L. intermedia,6,1,5,doutorado
+126,01/06/2002,2002,Saudoso,Nilton,ex-domicilio,-22.627845,-43.780242,2,2_2002,0-200,recente,rural,manual,galinheiro,L. intermedia,6,2,4,doutorado
+127,01/06/2002,2002,Saudoso,Nilton,ex-domicilio,-22.627845,-43.780242,2,2_2002,0-200,recente,rural,manual,bananal,L. intermedia,24,2,22,doutorado
+128,01/06/2002,2002,Saudoso,Nilton,ex-domicilio,-22.627845,-43.780242,2,2_2002,0-200,recente,rural,manual,bananal,L. migonei,1,0,1,doutorado
+129,01/06/2002,2002,Saudoso,Nilton,ex-domicilio,-22.627845,-43.780242,2,2_2002,0-200,recente,rural,luminosa,bananal,L. intermedia,164,23,141,doutorado
+130,01/06/2002,2002,Saudoso,Nilton,ex-domicilio,-22.627845,-43.780242,2,2_2002,0-200,recente,rural,luminosa,bananal,L. migonei,14,7,7,doutorado
+131,01/06/2002,2002,Saudoso,Nilton,ex-domicilio,-22.627845,-43.780242,2,2_2002,0-200,recente,rural,luminosa,bananal,L. whitmani,2,1,1,doutorado
+132,01/07/2002,2002,Centro,Wanderley (Vanderley),ex-domicilio,-22.60426,-43.71157,36,36_2002,500-1000,antigo,semiurbano,manual,bananal,negativa,0,0,0,doutorado
+133,01/12/2002,2002,Centro,Wanderley (Vanderley),ex-domicilio,-22.60426,-43.71157,36,36_2002,500-1000,antigo,semiurbano,luminosa,bananal,L. intermedia,17,9,8,doutorado
+134,01/06/2002,2002,Cascata,João,ex-domicilio,-22.596837,-43.714511,33,33_2002,500-1000,antigo,semiurbano,manual,arvore,negativa,0,0,0,doutorado
+135,01/06/2002,2002,Cascata,João,ex-domicilio,-22.596837,-43.714511,33,33_2002,500-1000,antigo,semiurbano,luminosa,arvore,L. intermedia,4,2,2,doutorado
+136,01/06/2002,2002,Cascata,Ermínea,ex-domicilio,-22.60022,-43.71627,32,32_2002,0-200,antigo,rural,luminosa,curral,L. intermedia,120,68,52,doutorado
+137,01/06/2002,2002,Cascata,Ermínea,ex-domicilio,-22.60022,-43.71627,32,32_2002,0-200,antigo,rural,luminosa,curral,L. fischeri,2,1,1,doutorado
+138,01/06/2002,2002,Cascata,Ermínea,ex-domicilio,-22.60022,-43.71627,32,32_2002,0-200,antigo,rural,luminosa,curral,L. whitmani,2,0,2,doutorado
+139,01/06/2002,2002,Sabugo,Mauro,ex-domicilio,-22.62594,-43.736692,13,13_2002,200-500,antigo,rural,manual,arvore,negativa,0,0,0,doutorado
+140,01/12/2002,2002,Sabugo,Mauro,ex-domicilio,-22.62594,-43.736692,13,13_2002,200-500,antigo,rural,luminosa,arvore,L. intermedia,5,3,2,doutorado
+141,01/12/2002,2002,Sabugo,Mauro,ex-domicilio,-22.62594,-43.736692,13,13_2002,200-500,antigo,rural,luminosa,NA,B. brumpti,2,0,2,doutorado
+142,01/06/2002,2002,Cascata,Valter,ex-domicilio,-22.600235,-43.718611,26,26_2002,500-1000,antigo,rural,manual,curral,L. intermedia,8,5,3,doutorado
+143,01/06/2002,2002,Cascata,Valter,ex-domicilio,-22.600235,-43.718611,26,26_2002,500-1000,antigo,rural,luminosa,curral,L. intermedia,27,17,10,doutorado
+144,01/06/2002,2002,Fábrica,Vera,ex-domicilio,-22.605461,-43.705304,41,41_2002,200-500,antigo,urbano,manual,parede_externa,negativa,0,0,0,doutorado
+145,01/06/2002,2002,Fábrica,Vera,ex-domicilio,-22.605461,-43.705304,41,41_2002,200-500,antigo,urbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+146,01/06/2002,2002,Ponte Coberta,Vilson,ex-domicilio,-22.65112,-43.80373,1,1_2002,0-200,recente,rural,manual,parede_externa,negativa,0,0,0,doutorado
+147,01/06/2002,2002,Ponte Coberta,Vilson,ex-domicilio,-22.65112,-43.80373,1,1_2002,0-200,recente,rural,manual,galinheiro,negativa,0,0,0,doutorado
+148,01/08/2002,2002,Ponte Coberta,Vilson,ex-domicilio,-22.65112,-43.80373,1,1_2002,0-200,recente,rural,luminosa,galinheiro,L. intermedia,15,2,13,doutorado
+149,01/06/2002,2002,São José,Marlene,novo,-22.59689,-43.753792,6,6_2002,0-200,antigo,rural,manual,arvore,L. whitmani,1,0,1,doutorado
+150,01/06/2002,2002,São José,Marlene,novo,-22.59689,-43.753792,6,6_2002,0-200,antigo,rural,luminosa,arvore,negativa,0,0,0,doutorado
+151,01/06/2002,2002,São José,Marizete,novo,-22.592219,-43.737449,12,12_2002,0-200,antigo,rural,manual,parede_externa,L. intermedia,2,0,2,doutorado
+152,01/06/2002,2002,São José,Marizete,novo,-22.592219,-43.737449,12,12_2002,0-200,antigo,rural,manual,arvore,L. intermedia,6,0,6,doutorado
+153,01/06/2002,2002,São José,Marizete,novo,-22.592219,-43.737449,12,12_2002,0-200,antigo,rural,luminosa,galinheiro,L. intermedia,49,4,45,doutorado
+154,01/06/2002,2002,São José,Darcy,novo,-22.587762,-43.730503,16,16_2002,200-500,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+155,01/06/2002,2002,São José,Darcy,novo,-22.587762,-43.730503,16,16_2002,200-500,antigo,rural,manual,bananal,L. intermedia,3,3,0,doutorado
+156,01/06/2002,2002,São José,Darcy,novo,-22.587762,-43.730503,16,16_2002,200-500,antigo,rural,luminosa,bananal,L. intermedia,19,15,4,doutorado
+157,01/06/2002,2002,São José,Sebastião,novo,-22.586482,-43.729333,18,18_2002,0-200,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+158,01/06/2002,2002,São José,Sebastião,novo,-22.586482,-43.729333,18,18_2002,0-200,antigo,rural,manual,bananal,negativa,0,0,0,doutorado
+159,01/12/2002,2002,São José,Sebastião,novo,-22.586482,-43.729333,18,18_2002,0-200,antigo,rural,manual,parede_externa,L. intermedia,8,4,4,doutorado
+160,01/12/2002,2002,São José,Sebastião,novo,-22.586482,-43.729333,18,18_2002,0-200,antigo,rural,manual,bananal,L. intermedia,55,29,26,doutorado
+161,01/12/2002,2002,São José,Sebastião,novo,-22.586482,-43.729333,18,18_2002,0-200,antigo,rural,manual,bananal,L. migonei,1,1,0,doutorado
+162,01/12/2002,2002,São José,Sebastião,novo,-22.586482,-43.729333,18,18_2002,0-200,antigo,rural,manual,galinheiro,L. intermedia,8,2,6,doutorado
+163,01/12/2002,2002,São José,Sebastião,novo,-22.586482,-43.729333,18,18_2002,0-200,antigo,rural,luminosa,bananal,L. intermedia,94,55,39,doutorado
+164,01/12/2002,2002,São José,Sebastião,novo,-22.586482,-43.729333,18,18_2002,0-200,antigo,rural,luminosa,bananal,L. migonei,1,0,1,doutorado
+165,01/07/2002,2002,Sabugo,Alessandra,novo,-22.61701,-43.71832,27,27_2002,500-1000,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+166,01/07/2002,2002,Sabugo,Alessandra,novo,-22.61701,-43.71832,27,27_2002,500-1000,antigo,rural,manual,arvore,negativa,0,0,0,doutorado
+167,01/07/2002,2002,Sabugo,Alessandra,novo,-22.61701,-43.71832,27,27_2002,500-1000,antigo,rural,luminosa,parede_externa,negativa,0,0,0,doutorado
+168,01/07/2002,2002,Sabugo,Alessandra,novo,-22.61701,-43.71832,27,27_2002,500-1000,antigo,rural,luminosa,arvore,negativa,0,0,0,doutorado
+169,01/07/2002,2002,Sabugo,Elizângela,novo,-22.620736,-43.725217,20,20_2002,500-1000,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+170,01/07/2002,2002,Sabugo,Elizângela,novo,-22.620736,-43.725217,20,20_2002,500-1000,antigo,rural,manual,arvore,negativa,0,0,0,doutorado
+171,01/07/2002,2002,Sabugo,Elizângela,novo,-22.620736,-43.725217,20,20_2002,500-1000,antigo,rural,luminosa,parede_externa,negativa,0,0,0,doutorado
+172,01/07/2002,2002,Sabugo,Elizângela,novo,-22.620736,-43.725217,20,20_2002,500-1000,antigo,rural,luminosa,arvore,negativa,0,0,0,doutorado
+173,01/12/2002,2002,Sabugo,Alessandra,novo,-22.61701,-43.71832,27,27_2002,500-1000,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+174,01/12/2002,2002,Sabugo,Alessandra,novo,-22.61701,-43.71832,27,27_2002,500-1000,antigo,rural,manual,arvore,negativa,0,0,0,doutorado
+175,01/12/2002,2002,Sabugo,Alessandra,novo,-22.61701,-43.71832,27,27_2002,500-1000,antigo,rural,luminosa,parede_externa,negativa,0,0,0,doutorado
+176,01/12/2002,2002,Sabugo,Alessandra,novo,-22.61701,-43.71832,27,27_2002,500-1000,antigo,rural,luminosa,arvore,negativa,0,0,0,doutorado
+177,01/12/2002,2002,Sabugo,Elizângela,novo,-22.620736,-43.725217,20,20_2002,500-1000,antigo,rural,manual,parede_externa,negativa,0,0,0,doutorado
+178,01/12/2002,2002,Sabugo,Elizângela,novo,-22.620736,-43.725217,20,20_2002,500-1000,antigo,rural,manual,arvore,negativa,0,0,0,doutorado
+179,01/12/2002,2002,Sabugo,Elizângela,novo,-22.620736,-43.725217,20,20_2002,500-1000,antigo,rural,luminosa,parede_externa,negativa,0,0,0,doutorado
+180,01/12/2002,2002,Sabugo,Elizângela,novo,-22.620736,-43.725217,20,20_2002,500-1000,antigo,rural,luminosa,arvore,negativa,0,0,0,doutorado
+181,01/06/2002,2002,Cascata,Shimeni,novo,-22.59704,-43.7131,35,35_2002,500-1000,antigo,semiurbano,manual,parede_externa,negativa,0,0,0,doutorado
+182,01/06/2002,2002,Cascata,Shimeni,novo,-22.59704,-43.7131,35,35_2002,500-1000,antigo,semiurbano,manual,bananal,negativa,0,0,0,doutorado
+183,01/06/2002,2002,Cascata,Shimeni,novo,-22.59704,-43.7131,35,35_2002,500-1000,antigo,semiurbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+184,01/06/2002,2002,Cascata,Shimeni,novo,-22.59704,-43.7131,35,35_2002,500-1000,antigo,semiurbano,luminosa,bananal,negativa,0,0,0,doutorado
+185,01/06/2002,2002,Cascata,Shimeni,novo,-22.59704,-43.7131,35,35_2002,500-1000,antigo,semiurbano,luminosa,bananal,L. intermedia,2,0,2,doutorado
+186,01/06/2002,2002,Lages,J. Sérgio,novo,-22.624902,-43.699648,42,42_2002,>1000,antigo,urbano,manual,parede_externa,negativa,0,0,0,doutorado
+187,01/06/2002,2002,Lages,J. Sérgio,novo,-22.624902,-43.699648,42,42_2002,>1000,antigo,urbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+188,01/06/2002,2002,Sabugo,Elenyr,novo,-22.61295,-43.71707,30,30_2002,200-500,antigo,urbano,manual,parede_externa,negativa,0,0,0,doutorado
+189,01/06/2002,2002,Sabugo,Elenyr,novo,-22.61295,-43.71707,30,30_2002,200-500,antigo,urbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+190,01/06/2002,2002,Sabugo,Ivonete,novo,-22.61175,-43.71687,31,31_2002,200-500,antigo,urbano,manual,parede_externa,negativa,0,0,0,doutorado
+191,01/06/2002,2002,Sabugo,Ivonete,novo,-22.61175,-43.71687,31,31_2002,200-500,antigo,urbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+192,01/06/2002,2002,Fábrica,Newton/Saulo,novo,-22.60417,-43.70672,40,40_2002,200-500,antigo,urbano,manual,parede_externa,negativa,0,0,0,doutorado
+193,01/06/2002,2002,Fábrica,Newton/Saulo,novo,-22.60417,-43.70672,40,40_2002,200-500,antigo,urbano,manual,arvore,negativa,0,0,0,doutorado
+194,01/06/2002,2002,Fábrica,Newton/Saulo,novo,-22.60417,-43.70672,40,40_2002,200-500,antigo,urbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+195,01/06/2002,2002,Fábrica,Newton/Saulo,novo,-22.60417,-43.70672,40,40_2002,200-500,antigo,urbano,luminosa,arvore,negativa,0,0,0,doutorado
+196,01/12/2002,2002,Lages,J. Sérgio,novo,-22.624902,-43.699648,42,42_2002,>1000,antigo,urbano,manual,parede_externa,negativa,0,0,0,doutorado
+197,01/12/2002,2002,Lages,J. Sérgio,novo,-22.624902,-43.699648,42,42_2002,>1000,antigo,urbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+198,01/12/2002,2002,Sabugo,Elenyr,novo,-22.61295,-43.71707,30,30_2002,200-500,antigo,urbano,manual,parede_externa,negativa,0,0,0,doutorado
+199,01/12/2002,2002,Sabugo,Elenyr,novo,-22.61295,-43.71707,30,30_2002,200-500,antigo,urbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+200,01/12/2002,2002,Sabugo,Ivonete,novo,-22.61175,-43.71687,31,31_2002,200-500,antigo,urbano,manual,parede_externa,negativa,0,0,0,doutorado
+201,01/12/2002,2002,Sabugo,Ivonete,novo,-22.61175,-43.71687,31,31_2002,200-500,antigo,urbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+202,01/12/2002,2002,Fábrica,Newton/Saulo,novo,-22.60417,-43.70672,40,40_2002,200-500,antigo,urbano,manual,parede_externa,negativa,0,0,0,doutorado
+203,01/12/2002,2002,Fábrica,Newton/Saulo,novo,-22.60417,-43.70672,40,40_2002,200-500,antigo,urbano,manual,arvore,negativa,0,0,0,doutorado
+204,01/12/2002,2002,Fábrica,Newton/Saulo,novo,-22.60417,-43.70672,40,40_2002,200-500,antigo,urbano,luminosa,parede_externa,negativa,0,0,0,doutorado
+205,01/12/2002,2002,Fábrica,Newton/Saulo,novo,-22.60417,-43.70672,40,40_2002,200-500,antigo,urbano,luminosa,arvore,negativa,0,0,0,doutorado
+206,01/07/2002,2002,Saudoso,Lúcio,novo,-22.63659,-43.75281,7,7_2002,500-1000,recente,rural,manual,parede_externa,negativa,0,0,0,doutorado
+207,01/07/2002,2002,Saudoso,Lúcio,novo,-22.63659,-43.75281,7,7_2002,500-1000,recente,rural,manual,arvore,negativa,0,0,0,doutorado
+208,01/07/2002,2002,Saudoso,Lúcio,novo,-22.63659,-43.75281,7,7_2002,500-1000,recente,rural,luminosa,parede_externa,negativa,0,0,0,doutorado
+209,01/07/2002,2002,Saudoso,Lúcio,novo,-22.63659,-43.75281,7,7_2002,500-1000,recente,rural,luminosa,arvore,negativa,0,0,0,doutorado
+210,01/12/2002,2002,Saudoso,Lúcio,novo,-22.63659,-43.75281,7,7_2002,500-1000,recente,rural,manual,parede_externa,negativa,0,0,0,doutorado
+211,01/12/2002,2002,Saudoso,Lúcio,novo,-22.63659,-43.75281,7,7_2002,500-1000,recente,rural,manual,arvore,negativa,0,0,0,doutorado
+212,01/12/2002,2002,Saudoso,Lúcio,novo,-22.63659,-43.75281,7,7_2002,500-1000,recente,rural,luminosa,parede_externa,negativa,0,0,0,doutorado
+213,01/12/2002,2002,Saudoso,Lúcio,novo,-22.63659,-43.75281,7,7_2002,500-1000,recente,rural,luminosa,arvore,negativa,0,0,0,doutorado
+214,01/12/2002,2002,Fábrica,Vera (certo Álvaro),vizinho,-22.60221,-43.706895,39,39_2002,0-200,,rural,luminosa,A/GL,L. intermedia,64,32,32,doutorado
+215,01/12/2002,2002,Fábrica,Vera (certo Álvaro),vizinho,-22.60221,-43.706895,39,39_2002,0-200,,rural,luminosa,A/GL,L. migonei,2,0,2,doutorado
+216,01/12/2002,2002,Fábrica,Vera (certo Álvaro),vizinho,-22.60221,-43.706895,39,39_2002,0-200,,rural,luminosa,galinheiro,L. cortelezzii,1,0,1,doutorado
+217,01/12/2002,2002,Vila Nova,Próximo à Maria Teixeira,vizinho,-22.61246,-43.71908,23,23_2002,0-200,,semiurbano,luminosa,bananal,L. intermedia,12,3,9,doutorado
+218,01/12/2002,2002,Sabugo,Próximo ao Emilson (a 200m),vizinho,-22.61492,-43.72343,21,21_2002,0-200,,rural,luminosa,bananal,L. intermedia,31,14,17,doutorado
+219,01/07/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,658,200,458,doutorado
+220,01/07/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,20,3,17,doutorado
+221,01/07/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. fischeri,1,0,1,doutorado
+222,01/07/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. whitmani,1,0,1,doutorado
+223,01/09/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,15,15,0,doutorado
+224,01/09/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,2,2,0,doutorado
+225,01/08/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,negativa,0,0,0,doutorado
+226,01/10/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,45,33,12,doutorado
+227,01/10/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,10,10,0,doutorado
+228,01/11/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,11,6,5,doutorado
+229,01/11/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,1,1,0,doutorado
+230,01/12/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,141,62,79,doutorado
+231,01/12/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,27,23,4,doutorado
+232,01/12/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. antunesi,1,1,0,doutorado
+233,01/07/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,54,18,36,doutorado
+234,01/08/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,551,265,286,doutorado
+235,01/08/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,34,6,28,doutorado
+236,01/08/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. fischeri,3,3,0,doutorado
+237,01/08/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. schreiberi,1,0,1,doutorado
+238,01/08/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. pelloni,1,0,1,doutorado
+239,01/09/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,30,30,0,doutorado
+240,01/09/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,1,1,0,doutorado
+241,01/09/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. whitmani,1,1,0,doutorado
+242,01/10/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,53,34,19,doutorado
+243,01/10/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. fischeri,1,1,0,doutorado
+244,01/11/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,80,8,72,doutorado
+245,01/11/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,2,2,0,doutorado
+246,01/12/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,148,70,78,doutorado
+247,01/12/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,25,13,12,doutorado
+248,01/12/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. fischeri,3,1,2,doutorado
+249,01/07/2002,2002,Jardim Nova Era,Geraldo,CT_SU,-22.59394,-43.683768,48,48_2002,0-200,não_houve,semiurbano,,,negativa,0,0,0,doutorado
+250,01/08/2002,2002,Jardim Nova Era,Geraldo,CT_SU,-22.59394,-43.683768,48,48_2002,0-200,não_houve,semiurbano,,,L. intermedia,5,5,0,doutorado
+251,01/09/2003,2003,Jardim Nova Era,Geraldo,CT_SU,-22.59394,-43.683768,48,48_2003,0-200,não_houve,semiurbano,manual,arvore,L. intermedia,15,12,3,doutorado
+252,01/09/2003,2002,Jardim Nova Era,Geraldo,CT_SU,-22.59394,-43.683768,48,48_2002,0-200,não_houve,semiurbano,,,B. nitzulescui,1,0,1,doutorado
+253,01/10/2002,2002,Jardim Nova Era,Geraldo,CT_SU,-22.59394,-43.683768,48,48_2002,0-200,não_houve,semiurbano,,,L. intermedia,13,10,3,doutorado
+254,01/11/2002,2002,Jardim Nova Era,Geraldo,CT_SU,-22.59394,-43.683768,48,48_2002,0-200,não_houve,semiurbano,,,L. intermedia,18,2,16,doutorado
+255,01/11/2002,2002,Jardim Nova Era,Geraldo,CT_SU,-22.59394,-43.683768,48,48_2002,0-200,não_houve,semiurbano,,,L. migonei,2,0,2,doutorado
+256,01/12/2002,2002,Jardim Nova Era,Geraldo,CT_SU,-22.59394,-43.683768,48,48_2002,0-200,não_houve,semiurbano,,,L. intermedia,3,3,0,doutorado
+257,01/12/2002,2002,Jardim Nova Era,Geraldo,CT_SU,-22.59394,-43.683768,48,48_2002,0-200,não_houve,semiurbano,,,B. brumpti,1,1,0,doutorado
+258,01/07/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,299,139,160,doutorado
+259,01/07/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. fischeri,1,1,0,doutorado
+260,01/07/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. whitmani,1,0,1,doutorado
+261,01/08/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,536,307,229,doutorado
+262,01/08/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,8,5,3,doutorado
+263,01/09/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,manual,BN/CR,L. intermedia,51,25,26,doutorado
+264,01/09/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,manual,BN/CR,L. migonei,3,1,2,doutorado
+265,01/09/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,luminosa,bananal,L. intermedia,855,372,483,doutorado
+266,01/09/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,20,4,16,doutorado
+267,01/09/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. fischeri,2,2,0,doutorado
+268,01/09/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. whitmani,1,0,1,doutorado
+269,01/10/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,737,245,492,doutorado
+270,01/10/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,20,15,5,doutorado
+271,01/10/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. fischeri,3,3,0,doutorado
+272,01/10/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. whitmani,1,1,0,doutorado
+273,01/11/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,77,24,53,doutorado
+274,01/11/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,6,6,0,doutorado
+275,01/11/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. fischeri,1,1,0,doutorado
+276,01/12/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. intermedia,653,151,502,doutorado
+277,01/12/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. migonei,10,9,1,doutorado
+278,01/12/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. fischeri,3,1,2,doutorado
+279,01/12/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,L. sordelli,1,1,0,doutorado
+280,01/12/2002,2002,Cascata,D1 Valter,adj,-22.60384,-43.71932,22,22_2002,500-1000,,semiurbano,,,B. nitzulescui,3,0,3,doutorado
+281,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,intra_isca_humana,L. whitmani,1,1,0,mestrado
+282,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,intra_teto,L. intermedia,134,29,105,mestrado
+283,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,intra_teto,L. migonei,2,0,2,mestrado
+284,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,intra_teto,L. fischeri,3,1,2,mestrado
+285,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,intra_teto,L. whitmani,2,0,2,mestrado
+286,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. intermedia,112,67,45,mestrado
+287,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. migonei,4,0,4,mestrado
+288,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. fischeri,6,4,2,mestrado
+289,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. whitmani,3,2,1,mestrado
+290,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. intermedia,48,38,10,mestrado
+291,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. fischeri,1,1,0,mestrado
+292,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,arvore,L. intermedia,8,1,7,mestrado
+293,01/09/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,arvore,L. whitmani,1,1,0,mestrado
+294,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_isca_humana,L. intermedia,103,103,0,mestrado
+295,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_isca_humana,L. migonei,1,0,1,mestrado
+296,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_isca_humana,L. fischeri,8,8,0,mestrado
+297,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_isca_humana,L. whitmani,6,6,0,mestrado
+298,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_isca_humana,L. hirsuta,2,2,0,mestrado
+299,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_isca_humana,L. shannoni,1,1,0,mestrado
+300,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_isca_humana,L. monticola,1,1,0,mestrado
+301,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,luminosa,bananal_tronco,L. intermedia,11,10,1,mestrado
+302,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,luminosa,bananal_tronco,L. fischeri,1,1,0,mestrado
+303,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,luminosa,bananal_tronco,L. whitmani,1,1,0,mestrado
+304,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_tronco,L. intermedia,99,43,56,mestrado
+305,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_tronco,L. fischeri,1,1,0,mestrado
+306,01/09/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_tronco,L. whitmani,5,3,2,mestrado
+307,01/10/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,intra_teto,L. intermedia,4,2,2,mestrado
+308,01/10/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,intra_teto,L. migonei,3,1,2,mestrado
+309,01/10/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,intra_teto,L. fischeri,1,1,0,mestrado
+310,01/10/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,intra_teto,L. whitmani,1,0,1,mestrado
+311,01/10/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. intermedia,42,37,5,mestrado
+312,01/10/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. migonei,1,0,1,mestrado
+313,01/10/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. fischeri,5,4,1,mestrado
+314,01/10/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. shannoni,2,0,2,mestrado
+315,01/10/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,luminosa,arvore,L. intermedia,7,5,2,mestrado
+316,01/10/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. intermedia,107,55,52,mestrado
+317,01/10/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. migonei,5,4,1,mestrado
+318,01/10/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. fischeri,6,5,1,mestrado
+319,01/10/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,parede_externa,L. intermedia,11,8,3,mestrado
+320,01/10/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,parede_externa,L. migonei,2,0,2,mestrado
+321,01/10/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,parede_externa,L. fischeri,3,1,2,mestrado
+322,01/10/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,luminosa,bananal_tronco,L. fischeri,1,1,0,mestrado
+323,01/10/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,luminosa,floresta_tronco,L. intermedia,5,5,0,mestrado
+324,01/10/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,luminosa,floresta_tronco,L. fischeri,1,1,0,mestrado
+325,01/10/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,floresta_isca_humana,L. intermedia,2,2,0,mestrado
+326,01/10/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,floresta_isca_humana,L. fischeri,5,5,0,mestrado
+327,01/10/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,floresta_isca_humana,L. sp,2,2,0,mestrado
+328,01/11/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,intra_teto,L. intermedia,207,126,81,mestrado
+329,01/11/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,intra_teto,L. migonei,6,3,3,mestrado
+330,01/11/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,intra_teto,L. fischeri,2,1,1,mestrado
+331,01/11/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. intermedia,74,56,18,mestrado
+332,01/11/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. migonei,2,1,1,mestrado
+333,01/11/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. fischeri,1,1,0,mestrado
+334,01/11/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. intermedia,156,81,75,mestrado
+335,01/11/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. fischeri,2,1,1,mestrado
+336,01/11/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. whitmani,1,0,1,mestrado
+337,01/11/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_isca_humana,L. intermedia,5,5,0,mestrado
+338,01/11/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_isca_humana,L. fischeri,2,2,0,mestrado
+339,01/11/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_isca_humana,L. monticola,1,1,0,mestrado
+340,01/11/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,luminosa,floresta_tronco,L. migonei,1,1,0,mestrado
+341,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,intra_isca_humana,L. intermedia,14,13,1,mestrado
+342,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. intermedia,423,287,136,mestrado
+343,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. migonei,10,2,8,mestrado
+344,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_interna,L. fischeri,9,6,3,mestrado
+345,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,peri_isca_humana,L. intermedia,19,19,0,mestrado
+346,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,tronco,L. intermedia,87,37,50,mestrado
+347,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,tronco,L. migonei,9,3,6,mestrado
+348,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,luminosa,tronco,L. fischeri,1,0,1,mestrado
+349,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. intermedia,319,167,152,mestrado
+350,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. migonei,8,1,7,mestrado
+351,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. fischeri,10,10,0,mestrado
+352,01/12/1992,1992,Cascata,Valverde,,-22.60384,-43.71932,22,22_1992,0-200,,,manual,parede_externa,L. whitmani,1,1,0,mestrado
+353,01/12/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_isca_humana,L. intermedia,7,7,0,mestrado
+354,01/12/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_tronco,L. intermedia,147,35,112,mestrado
+355,01/12/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_tronco,L. migonei,2,0,2,mestrado
+356,01/12/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,manual,bananal_tronco,L. fischeri,2,2,0,mestrado
+357,01/12/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,luminosa,bananal_tronco,L. intermedia,159,66,93,mestrado
+358,01/12/1992,1992,Cascata,Hospital,,-22.60011,-43.718692,25,25_1992,0-200,,,luminosa,bananal_tronco,L. migonei,2,1,1,mestrado
+359,01/01/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. intermedia,727,268,459,mestrado
+360,01/01/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. migonei,46,9,37,mestrado
+361,01/01/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. fischeri,1,1,0,mestrado
+362,01/01/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_interna,L. intermedia,134,51,83,mestrado
+363,01/01/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_interna,L. migonei,5,2,3,mestrado
+364,01/01/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,arvore,L. intermedia,2,0,2,mestrado
+365,01/01/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. intermedia,389,32,357,mestrado
+366,01/01/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. migonei,7,1,6,mestrado
+367,01/01/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. fischeri,1,1,0,mestrado
+368,01/01/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,bananal_isca_humana,L. sp,1,1,0,mestrado
+369,01/01/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,bananal_tronco,L. intermedia,10,2,8,mestrado
+370,01/01/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,bananal_tronco,L. migonei,1,0,1,mestrado
+371,01/01/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,bananal_tronco,L. fischeri,1,1,0,mestrado
+372,01/01/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,manual,floresta_isca_humana,L. sp,1,1,0,mestrado
+373,01/01/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,floresta_tronco,L. migonei,1,1,0,mestrado
+374,01/01/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,floresta_tronco,L. fischeri,1,1,0,mestrado
+375,01/01/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,floresta_tronco,L. sp,1,1,0,mestrado
+376,01/02/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_interna,L. intermedia,3,0,3,mestrado
+377,01/02/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_interna,L. whitmani,1,1,0,mestrado
+378,01/02/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. intermedia,4,3,1,mestrado
+379,01/02/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. fischeri,1,1,0,mestrado
+380,01/03/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,intra_isca_humana,L. intermedia,2,2,0,mestrado
+381,01/03/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. intermedia,51,26,25,mestrado
+382,01/03/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. migonei,2,1,1,mestrado
+383,01/03/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. whitmani,1,1,0,mestrado
+384,01/03/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_interna,L. intermedia,33,23,10,mestrado
+385,01/03/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,peri_isca_humana,L. intermedia,1,1,0,mestrado
+386,01/03/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,peri_isca_humana,L. fischeri,5,5,0,mestrado
+387,01/03/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. intermedia,38,8,30,mestrado
+388,01/03/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,arvore,L. intermedia,4,2,2,mestrado
+389,01/03/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,floresta_tronco,L. intermedia,3,2,1,mestrado
+390,01/03/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,floresta_tronco,L. fischeri,1,1,0,mestrado
+391,01/04/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,intra_isca_humana,L. intermedia,4,2,2,mestrado
+392,01/04/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. intermedia,1,0,1,mestrado
+393,01/04/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_interna,L. intermedia,26,17,9,mestrado
+394,01/04/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,peri_isca_humana,L. intermedia,1,1,0,mestrado
+395,01/04/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. intermedia,58,10,48,mestrado
+396,01/04/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. migonei,1,1,0,mestrado
+397,01/04/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,manual,bananal_isca_humana,L. intermedia,3,2,1,mestrado
+398,01/04/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,bananal_tronco,L. intermedia,3,1,2,mestrado
+399,01/04/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,floresta_tronco,L. intermedia,4,4,0,mestrado
+400,01/04/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,floresta_tronco,L. migonei,1,1,0,mestrado
+401,01/04/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,floresta_tronco,L. fischeri,1,1,0,mestrado
+402,01/05/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,intra_isca_humana,L. intermedia,6,6,0,mestrado
+403,01/05/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_interna,L. intermedia,12,11,1,mestrado
+404,01/05/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. intermedia,25,14,11,mestrado
+405,01/05/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,bananal_tronco,L. intermedia,11,8,3,mestrado
+406,01/05/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,bananal_tronco,L. whitmani,1,1,0,mestrado
+407,01/06/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. intermedia,16,14,2,mestrado
+408,01/06/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. migonei,1,0,1,mestrado
+409,01/06/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_interna,L. intermedia,4,3,1,mestrado
+410,01/06/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. intermedia,26,7,19,mestrado
+411,01/06/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. migonei,1,1,0,mestrado
+412,01/06/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. fischeri,1,1,0,mestrado
+413,01/06/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,bananal_tronco,L. intermedia,1,1,0,mestrado
+414,01/07/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. intermedia,4,3,1,mestrado
+415,01/07/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,parede_interna,L. intermedia,2,0,2,mestrado
+416,01/07/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,parede_interna,L. migonei,1,0,1,mestrado
+417,01/07/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. intermedia,9,3,6,mestrado
+418,01/07/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_externa,L. whitmani,1,1,0,mestrado
+419,01/07/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,manual,bananal_isca_humana,L. intermedia,4,4,0,mestrado
+420,01/07/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,manual,bananal_isca_humana,L. fischeri,1,1,0,mestrado
+421,01/07/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,manual,bananal_isca_humana,L. whitmani,1,1,0,mestrado
+422,01/07/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,bananal_tronco,L. intermedia,13,11,2,mestrado
+423,01/07/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,bananal_tronco,L. whitmani,1,1,0,mestrado
+424,01/07/1993,1993,Cascata,Hospital,,-22.60011,-43.718692,25,25_1993,0-200,,,luminosa,floresta_tronco,L. intermedia,18,10,8,mestrado
+425,01/08/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. intermedia,39,38,1,mestrado
+426,01/08/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,luminosa,intra_teto,L. whitmani,2,2,0,mestrado
+427,01/08/1993,1993,Cascata,Valverde,,-22.60384,-43.71932,22,22_1993,0-200,,,manual,parede_interna,L. intermedia,5,4,1,mestrado
+428,01/08/1993,1993,Cascata,,,,,,_1993,0-200,,,manual,bananal_isca_humana,L. intermedia,5,5,0,mestrado
+429,01/08/1993,1993,Cascata,,,,,,_1993,0-200,,,manual,bananal_isca_humana,L. fischeri,1,1,0,mestrado
+430,01/08/1993,1993,Cascata,,,,,,_1993,0-200,,,manual,bananal_isca_humana,L. whitmani,2,2,0,mestrado
+431,01/08/1993,1993,Cascata,,,,,,_1993,0-200,,,luminosa,arvore,L. intermedia,9,8,1,mestrado
+432,01/08/1993,1993,Cascata,,,,,,_1993,0-200,,,luminosa,arvore,L. whitmani,4,1,3,mestrado
+433,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_interna,L. intermedia,5,1,4,mestrado
+434,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. intermedia,256,182,74,mestrado
+435,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. migonei,53,11,42,mestrado
+436,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. fischeri,34,32,2,mestrado
+437,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. sp,1,1,0,mestrado
+438,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. pessoai,1,1,0,mestrado
+439,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_externa,L. intermedia,12,4,8,mestrado
+440,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_externa,L. migonei,5,0,5,mestrado
+441,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_externa,L. fischeri,1,1,0,mestrado
+442,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. intermedia,48,41,7,mestrado
+443,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. pessoai,1,1,0,mestrado
+444,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,60,32,28,mestrado
+445,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. migonei,1,1,0,mestrado
+446,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. monticola,1,1,0,mestrado
+447,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. intermedia,43,4,39,mestrado
+448,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. migonei,1,1,0,mestrado
+449,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. fischeri,1,1,0,mestrado
+450,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,floresta_tronco,L. pessoai,1,1,0,mestrado
+451,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. intermedia,12,6,6,mestrado
+452,01/02/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,B. sp,1,1,0,mestrado
+453,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,intra_isca_humana,L. intermedia,22,19,3,mestrado
+454,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,intra_isca_humana,L. migonei,1,0,1,mestrado
+455,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,intra_isca_humana,L. fischeri,2,2,0,mestrado
+456,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,intra_isca_humana,L. sp,1,1,0,mestrado
+457,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. intermedia,51,28,23,mestrado
+458,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. migonei,4,2,2,mestrado
+459,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. fischeri,2,2,0,mestrado
+460,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_isca_humana,L. intermedia,20,11,9,mestrado
+461,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_isca_humana,L. fischeri,1,0,1,mestrado
+462,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,265,131,134,mestrado
+463,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. migonei,8,1,7,mestrado
+464,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. fischeri,24,24,0,mestrado
+465,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. sp,1,1,0,mestrado
+466,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. intermedia,83,11,72,mestrado
+467,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. fischeri,1,1,0,mestrado
+468,01/03/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,17,7,10,mestrado
+469,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_interna,L. intermedia,1,1,0,mestrado
+470,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_interna,L. migonei,3,0,3,mestrado
+471,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,peri_isca_humana,L. intermedia,26,5,21,mestrado
+472,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. intermedia,149,38,111,mestrado
+473,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. migonei,2,1,1,mestrado
+474,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. fischeri,1,1,0,mestrado
+475,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. sp,1,1,0,mestrado
+476,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_isca_humana,L. intermedia,34,4,30,mestrado
+477,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,461,236,225,mestrado
+478,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. migonei,25,6,19,mestrado
+479,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. fischeri,14,14,0,mestrado
+480,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. sp,4,4,0,mestrado
+481,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. intermedia,130,22,108,mestrado
+482,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. migonei,1,0,1,mestrado
+483,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. sp,1,1,0,mestrado
+484,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,floresta_isca_humana,L. intermedia,23,5,18,mestrado
+485,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. intermedia,97,59,38,mestrado
+486,01/04/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,arvore,L. migonei,3,0,3,mestrado
+487,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,intra_teto,L. intermedia,6,2,4,mestrado
+488,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,peri_isca_humana,L. intermedia,3,3,0,mestrado
+489,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_externa,L. intermedia,11,7,4,mestrado
+490,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_externa,L. migonei,1,1,0,mestrado
+491,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. intermedia,86,29,57,mestrado
+492,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. migonei,3,0,3,mestrado
+493,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. fischeri,1,1,0,mestrado
+494,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_isca_humana,L. intermedia,2,1,1,mestrado
+495,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,177,71,106,mestrado
+496,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. migonei,16,8,8,mestrado
+497,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. fischeri,19,19,0,mestrado
+498,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. intermedia,84,16,68,mestrado
+499,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. migonei,1,1,0,mestrado
+500,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. fischeri,4,4,0,mestrado
+501,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,floresta_isca_humana,L. intermedia,1,1,0,mestrado
+502,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,floresta_isca_humana,L. fischeri,4,4,0,mestrado
+503,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,5,2,3,mestrado
+504,01/05/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. fischeri,1,1,0,mestrado
+505,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,intra_isca_humana,L. intermedia,7,7,0,mestrado
+506,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,intra_teto,L. intermedia,64,44,20,mestrado
+507,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,intra_teto,L. migonei,5,4,1,mestrado
+508,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,intra_teto,L. fischeri,4,4,0,mestrado
+509,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_externa,L. intermedia,119,71,48,mestrado
+510,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,335,318,17,mestrado
+511,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. migonei,10,4,6,mestrado
+512,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. fischeri,25,25,0,mestrado
+513,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. sp,2,2,0,mestrado
+514,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. whitmani,1,1,0,mestrado
+515,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. intermedia,226,70,156,mestrado
+516,01/06/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. fischeri,1,1,0,mestrado
+517,01/07/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_interna,L. intermedia,8,4,4,mestrado
+518,01/07/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_externa,L. intermedia,14,4,10,mestrado
+519,01/07/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. intermedia,57,25,32,mestrado
+520,01/07/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. fischeri,2,2,0,mestrado
+521,01/07/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,29,17,12,mestrado
+522,01/07/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. pessoai,1,1,0,mestrado
+523,01/07/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. intermedia,57,6,51,mestrado
+524,01/07/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. migonei,1,1,0,mestrado
+525,01/07/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. fischeri,1,1,0,mestrado
+526,01/07/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. intermedia,9,5,4,mestrado
+527,01/07/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. migonei,1,1,0,mestrado
+528,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,intra_teto,L. intermedia,40,30,10,mestrado
+529,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,intra_teto,L. migonei,4,0,4,mestrado
+530,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_interna,L. intermedia,39,25,14,mestrado
+531,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_interna,L. migonei,1,0,1,mestrado
+532,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,peri_isca_humana,L. intermedia,13,8,5,mestrado
+533,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_externa,L. intermedia,65,39,26,mestrado
+534,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. intermedia,75,33,42,mestrado
+535,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,anexo,L. migonei,1,0,1,mestrado
+536,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,159,103,56,mestrado
+537,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. migonei,12,3,9,mestrado
+538,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. intermedia,197,51,146,mestrado
+539,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. migonei,1,1,0,mestrado
+540,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. fischeri,1,0,1,mestrado
+541,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,floresta_isca_humana,L. intermedia,6,4,2,mestrado
+542,01/08/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. intermedia,13,11,2,mestrado
+543,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,intra_teto,L. intermedia,81,51,30,mestrado
+544,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,intra_teto,L. fischeri,2,2,0,mestrado
+545,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_interna,L. intermedia,92,61,31,mestrado
+546,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_interna,L. migonei,1,0,1,mestrado
+547,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_interna,L. fischeri,2,2,0,mestrado
+548,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,peri_isca_humana,L. intermedia,46,45,1,mestrado
+549,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_externa,L. intermedia,69,58,11,mestrado
+550,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,64,55,9,mestrado
+551,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. fischeri,1,1,0,mestrado
+552,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. intermedia,74,37,37,mestrado
+553,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. migonei,2,0,2,mestrado
+554,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. fischeri,3,3,0,mestrado
+555,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,floresta_tronco,L. intermedia,1,1,0,mestrado
+556,01/09/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,floresta_tronco,L. migonei,1,0,1,mestrado
+557,01/10/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,intra_isca_humana,L. intermedia,3,3,0,mestrado
+558,01/10/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,intra_teto,L. intermedia,13,11,2,mestrado
+559,01/10/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,intra_teto,L. migonei,1,0,1,mestrado
+560,01/10/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,43,24,19,mestrado
+561,01/10/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. intermedia,119,12,107,mestrado
+562,01/10/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. migonei,1,0,1,mestrado
+563,01/11/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,intra_teto,L. intermedia,12,6,6,mestrado
+564,01/11/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_interna,L. intermedia,18,10,8,mestrado
+565,01/11/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_externa,L. intermedia,9,4,5,mestrado
+566,01/11/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_isca_humana,L. intermedia,10,5,5,mestrado
+567,01/11/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,30,19,11,mestrado
+568,01/11/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. migonei,1,0,1,mestrado
+569,01/11/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,floresta_isca_humana,L. intermedia,3,0,3,mestrado
+570,01/11/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. intermedia,12,4,8,mestrado
+571,01/12/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_interna,L. intermedia,4,0,4,mestrado
+572,01/12/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,arvore,L. intermedia,8,4,4,mestrado
+573,01/12/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,parede_externa,L. intermedia,2,0,2,mestrado
+574,01/12/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. migonei,4,0,4,mestrado
+575,01/12/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. fischeri,4,4,0,mestrado
+576,01/12/1994,1994,Praça Verde,,,,,,_1994,0-200,,,manual,bananal_tronco,L. intermedia,150,35,115,mestrado
+577,01/12/1994,1994,Praça Verde,,,,,,_1994,0-200,,,luminosa,bananal_tronco,L. intermedia,94,9,85,mestrado
+578,01/01/1995,1995,Praça Verde,,,,,,_1995,0-200,,,manual,parede_interna,L. intermedia,9,9,0,mestrado
+579,01/01/1995,1995,Praça Verde,,,,,,_1995,0-200,,,manual,parede_externa,L. intermedia,16,3,13,mestrado
+580,01/01/1995,1995,Praça Verde,,,,,,_1995,0-200,,,luminosa,bananal_tronco,L. intermedia,85,32,53,mestrado
+581,01/01/1995,1995,Praça Verde,,,,,,_1995,0-200,,,luminosa,bananal_tronco,L. migonei,7,0,7,mestrado
+582,01/01/1995,1995,Praça Verde,,,,,,_1995,0-200,,,luminosa,bananal_tronco,L. fischeri,5,5,0,mestrado
