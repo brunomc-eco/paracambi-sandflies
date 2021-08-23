@@ -1,0 +1,5 @@
+species,forest_f_r,pasture_f_r,agripasture_f_r,nonveg_f_r,urban_f_r,forest_f_p,pasture_f_p,agripasture_f_p,nonveg_f_p,urban_f_p
+L. intermedia,0.058,0.325,-0.369,-0.102,-0.192,0.719,0.038,0.018,0.525,0.23
+L. migonei,0.413,-0.072,-0.374,-0.198,-0.166,0.079,0.768,0.115,0.415,0.497
+L. fischeri,0.641,-0.493,-0.158,-0.243,NA,0.087,0.214,0.708,0.562,NA
+L. whitmani,-0.193,0.097,0.128,0.342,NA,0.57,0.777,0.708,0.303,NA

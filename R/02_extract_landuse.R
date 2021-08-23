@@ -6,6 +6,7 @@
 library(readr)
 library(dplyr)
 library(tidyr)
+library(stringr)
 library(raster)
 library(rgdal)
 library(data.table)
@@ -17,78 +18,87 @@ library(data.table)
 spdata <- read_csv("./data/sandfly_data_paracambi_analysis.csv")
 
 # mapbiomas rasters
-mapbiomas <- raster("./data/raster/mapbiomas-brazil-collection-50-riodejaneiro-2002.tif")
-CRS = CRS("+proj=longlat +ellps=WGS84 +datum=WGS84") # wgs84 datum
+mapbiomas <- list.files("./data/raster", pattern = "paracambi", full.names = TRUE) %>%
+  stack()
 
-# Paracambi shapefile
-paracambi <- readOGR("./data/shp/Paracambi_2020.shp")
-
-# crop mapbiomas to Paracambi extent
-mapbiomas_paracambi <- crop(mapbiomas, paracambi)
-
-# names of mapbiomas categories
+# names of mapbiomas categories present in Paracambi
 cod <- data.frame(cod = c(3, 15, 21, 25, 24),
                   name = c("forest", "pasture", "agripasture", "nonveg", "urban"))
 
 # buffer size for data extraction, in meters
 buf = 200
 
+# wgs84 datum
+CRS <- CRS("+proj=longlat +ellps=WGS84 +datum=WGS84") 
+
+#mapbiomas_2002 <- raster("./data/raster/mapbiomas-brazil-collection-50-riodejaneiro-2002.tif")
+
 
 # extracting land use values per point/year -------------------------------
 
+# converting spdata to spatial points
 points <- spdata %>%
   dplyr::select(point_id, ano, lon_campo, lat_campo) %>%
-  filter(ano == 2002) %>%
   distinct() %>%
   arrange(point_id) %>%
-  drop_na()
+  drop_na() 
 
-# converting to spatial points
-points <- SpatialPointsDataFrame(coords = data.frame(points$lon_campo, points$lat_campo),
-                            data = points,
-                            proj4string = CRS)
+year <- sort(unique(points$ano))
 
-# extract land cover percentages 
-cobvals <- raster::extract(mapbiomas_paracambi, points, buffer=buf)
-
-#cobvals <- list()
-#for(i in 1:length(points)){
-#  cobvals[[i]] <- raster::extract(mapbiomas_paracambi, 
-#                                  points[[i]],
-#                                  buffer=buffer) #extrai os valores dos pixels dentro de cada buffer
-#}
-
-#freq <- list()
-#for(i in 1:length(cobvals)){
-#  freq[[i]] <- lapply(cobvals[[i]], table) #calcula a frequencia de cada tipo de cobertura dentro do #buffer
-#}
-
-# get frequencies of mapbiomas categories in each buffer
-freq <- lapply(cobvals, table)
-
-# generate tables
-tables <- list()
-for(i in 1:length(freq)){
-  tables[[i]] <- data.frame(id = points$point_id[[i]],
-                            unlist(freq[[i]]))
+landcov_vals <- list()
+for(i in 1:length(year)){
+  
+  # select only points in this year
+  points_year <- filter(points, ano == year[[i]])
+  
+  # convert to spatial points
+  points_year <- SpatialPointsDataFrame(coords = data.frame(points_year$lon_campo, 
+                                                            points_year$lat_campo),
+                                   data = points_year,
+                                   proj4string = CRS)
+  
+  # extract pixel values in buffers
+  vals <- raster::extract(mapbiomas[[i]], points_year, buffer=buf)
+  
+  # calculate frequency of each category in buffers
+  freq <- lapply(vals, table)
+  
+  tables <- list()
+  for(j in 1:length(freq)){
+    tables[[j]] <- data.frame(id = points_year$point_id[[j]],
+                              unlist(freq[[j]]))
+  }
+  
+  landcov_vals[[i]] <- rbindlist(tables) %>%
+    #mutate(area_m2 = Freq*30) %>% # calculate area based on pixel size of 30m
+    mutate(year = year[[i]])
+  
 }
 
-pixels <- rbindlist(tables) %>%
-  mutate(area_m2 = Freq*30) # calculating area based on pixel size of 30m
 
-landcov <- pixels %>%
+# generate output table
+landcov <- rbindlist(landcov_vals) %>%
   pivot_wider(names_from = Var1, values_from = Freq) %>%
-  rename(point_year_id = id,
-         forest = "3",
+  rename(forest = "3",
          pasture = "15",
          agripasture = "21",
          nonveg = "25",
          urban = "24") %>%
+  relocate(year, .after = id) %>%
+  mutate(point_year_id = str_c(id, "_", year)) %>%
+  relocate(point_year_id, .after = year) %>%
   replace_na(list(forest = 0,
                   pasture = 0,
                   agripasture = 0,
                   nonveg = 0,
-                  urban = 0)) 
+                  urban = 0)) %>%
+  mutate(sum = forest+pasture+agripasture+nonveg+urban,
+         forest_f = forest/sum,
+         pasture_f = pasture/sum,
+         agripasture_f = agripasture/sum,
+         nonveg_f = nonveg/sum,
+         urban_f = urban/sum)
+
 
 # save output table
 write_csv(landcov, "./outputs/02_land_covers.csv")
