@@ -80,7 +80,8 @@ landcov <- rbindlist(landcov_vals) %>%
 if(ncol(landcov) == 7){
   
   landcov <- landcov %>%
-    rename(forest = "3",
+    rename(point_year_id = "id",
+           forest = "3",
            pasture = "15",
            agripasture = "21",
            nonveg = "25",
@@ -96,7 +97,8 @@ if(ncol(landcov) == 7){
 } else {
   
   landcov <- landcov %>%
-    rename(forest = "3",
+    rename(point_year_id = "id",
+           forest = "3",
            pasture = "15",
            agripasture = "21",
            nonveg = "25",
