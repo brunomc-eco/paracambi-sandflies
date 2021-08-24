@@ -1,78 +1,69 @@
-#kernel?
+# Santos et al. (in preparation)
+# Assessing spatial patterns of sand flies
+# Bruno M. Carvalho
+# brunomc.eco@gmail.com
 
 library(spatialEco)
 library(readr)
 library(dplyr)
-library(tidyr)
+#library(tidyr)
 library(raster)
-library(rgdal)
+#library(rgdal)
 
-#spdata
-dados <- read_csv("./data/flebs_paracambi_ginelza_completo_check.csv")
-spp_abund <- dados %>%
-  filter(dout_mest == "doutorado",
-         especie != "negativa") %>%
-  group_by(point_id, especie) %>%
-  summarize(n = sum(total)) %>%
-  pivot_wider(names_from = especie, 
-              values_from = n) %>%
-  replace(., is.na(.), 0) %>%
-  rename("L.int" = "L. intermedia",
-         "L.fis" = "L. fischeri",
-         "L.mig" = "L. migonei",
-         "L.pel" = "L. pelloni",
-         "B.bru" = "B. brumpti",
-         "L.whi" = "L. whitmani",
-         "L.ant" = "L. antunesi",
-         "L.cor" = "L. cortelezzii",
-         "L.sor" = "L. sordelli",
-         "L.sch" = "L. schreiberi",
-         "B.nit" = "B. nitzulescui") %>%
-  mutate(total = sum(c_across(L.int:L.cor)),
-         log_total = log(total))
 
-#add coords
+# loading data ------------------------------------------------------------
 
-points <- dados %>%
-  filter(ano == 2002) %>%
-  dplyr::select(point_id, ano, lon_campo, lat_campo) %>%
-  distinct() %>%
-  left_join(spp_abund, by = "point_id") %>%
-  drop_na()
+spdata <- read_csv("./data/sandfly_data_paracambi_analysis.csv")
 
 CRS = CRS("+proj=longlat +ellps=WGS84 +datum=WGS84")
 
-spatial <- SpatialPointsDataFrame(coords = data.frame(points$lon_campo, points$lat_campo),
-                       data = spp_abund,
-                       proj4string = CRS)
-
-writeOGR(spatial, "./data/outputs/spp_abund_doutorado.shp", driver = "ESRI Shapefile", layer = "spp_abund")
-
-#load rasters
-mapbiomas <- raster("./data/raster/mapbiomas-brazil-collection-50-riodejaneiro-2002.tif")
-paracambi <- readOGR("./data/shp/paracambi.shp")
-mapbiomas_paracambi <- crop(mapbiomas, extent(paracambi)+0.05)
+# sample raster for kernel output
+mapbiomas <- raster("./data/raster/mapbiomas_col5_paracambi_2003.tif")
 
 
-#check
-plot(mapbiomas_paracambi)
-plot(paracambi, add = TRUE)
-plot(spatial, add = TRUE)
+# calculate relative sand fly frequencies by point ------------------------
 
-#kernel
+# sampling effort
+sampl <- spdata %>%
+  filter(point_id != "NA") %>%
+  group_by(point_id) %>%
+  summarize(effort = n_distinct(month))
 
-weighted <- sp.kde(spatial, y = spatial$log_total, bw = 0.02, newdata = mapbiomas_paracambi)
+spp_freq <- spdata %>%
+  filter(point_id != "NA",
+         sp_code != "negative") %>%
+  group_by(point_id) %>%
+  summarize(n = sum(total)) %>%
+  left_join(sampl, by = "point_id") %>%
+  mutate(freq = round(n/effort, 2),
+         n_log = log(n),
+         freq_log = log(freq)) 
 
-#check
-plot(weighted)
-plot(paracambi, add = TRUE)
-plot(spatial, add = TRUE)
-writeRaster(weighted, "./results/kernel_0-02_log.tif")
 
-#variogram
-library(gstat)
+# convert into spatial points ---------------------------------------------
 
-lzn.vgm <- variogram(log(total)~1, data=a) # calculates sample variogram values 
-lzn.fit <- fit.variogram(lzn.vgm, model=vgm(1, "Sph", 900, 1)) # fit model
+# converting spdata to spatial points
+points <- spdata %>%
+  filter(point_id != "NA") %>%
+  dplyr::select(point_id, lon, lat) %>%
+  distinct() %>%
+  arrange(point_id) %>%
+  left_join(spp_freq, by = "point_id") %>%
+  drop_na()
 
-plot(lzn.vgm)
+points <- SpatialPointsDataFrame(coords = data.frame(points$lon, points$lat),
+                                      data = points,
+                                      proj4string = CRS)
+
+
+# estimating kernel density -----------------------------------------------
+
+# using frequencies (log)
+kernel_map_freq <- sp.kde(points, y = points$freq_log, bw = 0.02, newdata = mapbiomas)
+
+# using raw counts (log)
+kernel_map_n <- sp.kde(points, y = points$n_log, bw = 0.02, newdata = mapbiomas)
+
+# saving output
+writeRaster(kernel_map_freq, "./outputs/04_kernel_freq_log.tif")
+writeRaster(kernel_map_n, "./outputs/04_kernel_n_log.tif")

@@ -33,7 +33,7 @@ CRS <- CRS("+proj=longlat +ellps=WGS84 +datum=WGS84")
 
 # extracting land use values per point/year -------------------------------
 
-# converting spdata to spatial points
+# getting coordinate data
 points <- spdata %>%
   dplyr::select(point_id, year, point_year_id, lon, lat) %>%
   distinct() %>%
