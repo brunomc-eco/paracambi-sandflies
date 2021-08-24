@@ -6,7 +6,6 @@
 library(readr)
 library(dplyr)
 library(tidyr)
-library(stringr)
 library(raster)
 library(rgdal)
 library(data.table)
@@ -21,9 +20,9 @@ spdata <- read_csv("./data/sandfly_data_paracambi_analysis.csv")
 mapbiomas <- list.files("./data/raster", pattern = "paracambi", full.names = TRUE) %>%
   stack()
 
-# names of mapbiomas categories present in Paracambi
-cod <- data.frame(cod = c(3, 15, 21, 25, 24),
-                  name = c("forest", "pasture", "agripasture", "nonveg", "urban"))
+# names of mapbiomas categories in the study area
+cod <- data.frame(cod = c(3, 15, 21, 25, 24, 33),
+                  name = c("forest", "pasture", "agripasture", "nonveg", "urban", "water"))
 
 # buffer size for data extraction, in meters
 buf = 200
@@ -31,29 +30,27 @@ buf = 200
 # wgs84 datum
 CRS <- CRS("+proj=longlat +ellps=WGS84 +datum=WGS84") 
 
-#mapbiomas_2002 <- raster("./data/raster/mapbiomas-brazil-collection-50-riodejaneiro-2002.tif")
-
 
 # extracting land use values per point/year -------------------------------
 
 # converting spdata to spatial points
 points <- spdata %>%
-  dplyr::select(point_id, ano, lon_campo, lat_campo) %>%
+  dplyr::select(point_id, year, point_year_id, lon, lat) %>%
   distinct() %>%
   arrange(point_id) %>%
-  drop_na() 
+  drop_na()
 
-year <- sort(unique(points$ano))
+years <- sort(unique(points$year))
 
 landcov_vals <- list()
-for(i in 1:length(year)){
+for(i in 1:length(years)){
   
   # select only points in this year
-  points_year <- filter(points, ano == year[[i]])
+  points_year <- filter(points, year == years[[i]])
   
   # convert to spatial points
-  points_year <- SpatialPointsDataFrame(coords = data.frame(points_year$lon_campo, 
-                                                            points_year$lat_campo),
+  points_year <- SpatialPointsDataFrame(coords = data.frame(points_year$lon, 
+                                                            points_year$lat),
                                    data = points_year,
                                    proj4string = CRS)
   
@@ -65,40 +62,51 @@ for(i in 1:length(year)){
   
   tables <- list()
   for(j in 1:length(freq)){
-    tables[[j]] <- data.frame(id = points_year$point_id[[j]],
-                              unlist(freq[[j]]))
+    tables[[j]] <- data.frame(id = points_year$point_year_id[[j]],
+                              unlist(freq[[j]])) %>%
+      mutate(freq_percent = Freq/sum(Freq))
   }
   
-  landcov_vals[[i]] <- rbindlist(tables) %>%
-    #mutate(area_m2 = Freq*30) %>% # calculate area based on pixel size of 30m
-    mutate(year = year[[i]])
+  landcov_vals[[i]] <- rbindlist(tables)
   
 }
 
 
 # generate output table
 landcov <- rbindlist(landcov_vals) %>%
-  pivot_wider(names_from = Var1, values_from = Freq) %>%
-  rename(forest = "3",
-         pasture = "15",
-         agripasture = "21",
-         nonveg = "25",
-         urban = "24") %>%
-  relocate(year, .after = id) %>%
-  mutate(point_year_id = str_c(id, "_", year)) %>%
-  relocate(point_year_id, .after = year) %>%
-  replace_na(list(forest = 0,
-                  pasture = 0,
-                  agripasture = 0,
-                  nonveg = 0,
-                  urban = 0)) %>%
-  mutate(sum = forest+pasture+agripasture+nonveg+urban,
-         forest_f = forest/sum,
-         pasture_f = pasture/sum,
-         agripasture_f = agripasture/sum,
-         nonveg_f = nonveg/sum,
-         urban_f = urban/sum)
+  dplyr::select(!Freq) %>%
+  pivot_wider(names_from = Var1, values_from = freq_percent) 
 
+if(ncol(landcov) == 7){
+  
+  landcov <- landcov %>%
+    rename(forest = "3",
+           pasture = "15",
+           agripasture = "21",
+           nonveg = "25",
+           urban = "24",
+           water = "33") %>%
+    replace_na(list(forest = 0,
+                    pasture = 0,
+                    agripasture = 0,
+                    nonveg = 0,
+                    urban = 0,
+                    water = 0))
+  
+} else {
+  
+  landcov <- landcov %>%
+    rename(forest = "3",
+           pasture = "15",
+           agripasture = "21",
+           nonveg = "25",
+           urban = "24") %>%
+    replace_na(list(forest = 0,
+                    pasture = 0,
+                    agripasture = 0,
+                    nonveg = 0,
+                    urban = 0))
+}
 
 # save output table
-write_csv(landcov, "./outputs/02_land_covers.csv")
+write_csv(landcov, paste0("./outputs/02_land_covers_", buf, "m_buffer.csv"))
