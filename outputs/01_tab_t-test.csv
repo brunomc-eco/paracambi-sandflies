@@ -1,6 +1,5 @@
-especie,total_mest,total_dout,n_obs,t,df,p.value
-L. intermedia,8809,7361,229,-1.086,121.372,0.28
-L. migonei,307,335,95,-1.476,52.154,0.146
-L. fischeri,247,72,71,-0.452,12.046,0.659
-L. whitmani,37,16,32,1.421,25.065,0.168
-total,9429,7804,582,0.437,502.356,0.662
+species,total_1990s,total_2000s,n_obs,t,df,p-value
+Nyssomyia intermedia*,8809,7361,229,-1.086,121.372,0.28
+Migonemyia migonei*,307,335,95,-1.476,52.154,0.146
+Pintomyia fischeri*,247,72,71,-0.452,12.046,0.659
+Nyssomyia whitmani*,37,16,32,1.421,25.065,0.168

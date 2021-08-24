@@ -1,12 +1,17 @@
-especie,0-200,200-500,500-1000,>1000
-B. brumpti,1,2,1,0
-B. nitzulescui,1,0,3,0
-L. antunesi,0,0,1,0
-L. cortelezzii,1,0,0,0
-L. fischeri,54,0,18,0
-L. intermedia,1699,330,5274,58
-L. migonei,132,6,191,6
-L. pelloni,6,0,1,0
-L. schreiberi,0,0,1,0
-L. sordelli,0,0,2,0
-L. whitmani,6,2,5,3
+sp_name,0-200,200-500,500-1000,>1000
+Brumptomyia brumpti,1,2,1,0
+Brumptomyia nitzulescui,1,0,3,0
+Brumptomyia sp.,1,0,0,0
+Evandromyia cortelezzii,1,0,0,0
+Micropygomyia schreiberi,0,0,1,0
+Migonemyia migonei*,439,6,191,6
+Nyssomyia intermedia*,10508,330,5274,58
+Nyssomyia whitmani*,43,2,5,3
+Pintomyia fischeri*,301,0,18,0
+Pintomyia monticola,3,0,0,0
+Pintomyia pessoai,4,0,0,0
+Psathyromyia pelloni,6,0,1,0
+Psathyromyia shannoni,3,0,0,0
+Psychodopygus hirsutus hirsutus,2,0,0,0
+Sciopemyia sordellii,0,0,2,0
+Unidentified,16,0,0,0

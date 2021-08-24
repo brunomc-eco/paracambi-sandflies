@@ -1,5 +1,5 @@
 # Santos et al. (in preparation)
-# Exploring full data table and summarizing initial results
+# Exploring sand fly data and summarizing results
 # Bruno M. Carvalho
 # brunomc.eco@gmail.com
 
@@ -13,44 +13,27 @@ library(ggplot2)
 # loading data ------------------------------------------------------------
 
 spdata <- read_csv("./data/sandfly_data_paracambi_analysis.csv", 
-                  col_types = cols(mes = col_date(format = "%d/%m/%Y"),
-                                   ano = col_date(format = "%Y"),
-                                   dout_mest = col_factor(levels = c("mestrado", "doutorado")))) 
+                  col_types = cols(month = col_date(format = "%d/%m/%Y"),
+                                   year = col_date(format = "%Y"),
+                                   period = col_factor(levels = c("1990s", "2000s"))))
 
-spnames <- c("B. brumpti" = "Brumptomyia brumpti", 
-                "B. nitzulescui" = "Brumptomyia nitzulescui", 
-                "B. sp" = "Brumptomyia sp.", 
-                "L. antunesi" = "Nyssomyia antunesi", 
-                "L. cortelezzii" = "Evandromyia cortelezzii", 
-                "L. fischeri" = "Pintomyia fischeri*", 
-                "L. hirsuta" = "Psychodopygus hirsutus hirsutus ", 
-                "L. intermedia" = "Nyssomyia intermedia*", 
-                "L. migonei" = "Migonemyia migonei*", 
-                "L. monticola" = "Pintomyia monticola", 
-                "L. pelloni" = "Psathyromyia pelloni", 
-                "L. pessoai" = "Pintomyia pessoai", 
-                "L. schreiberi" = "Micropygomyia schreiberi", 
-                "L. shannoni" = "Psathyromyia shannoni", 
-                "L. sordelli" = "Sciopemyia sordellii", 
-                "L. sp" = "Unidentified", 
-                "L. whitmani" = "Nyssomyia whitmani*")
+study_spcodes <- c("intermedia", "migonei", "fischeri", "whitmani")
+study_spnames <- c("Nyssomyia intermedia*", "Migonemyia migonei*", "Pintomyia fischeri*", "Nyssomyia whitmani*")
 
 
 # species and counts by period --------------------------------------------
 
 tab <- spdata %>%
-  filter(especie != "negativa") %>%
-  group_by(especie, dout_mest) %>%
-  summarise("F" = sum(femeas),
-            "M" = sum(machos),
+  filter(sp_code != "negative") %>%
+  group_by(sp_name, period) %>%
+  summarise("F" = sum(females),
+            "M" = sum(males),
             "Total" = sum(total)) %>%
-  pivot_wider(names_from = dout_mest, 
+  pivot_wider(names_from = period, 
               values_from = c("F", "M", "Total")) %>%
   replace(is.na(.), 0) %>%
-  mutate(Total = Total_mestrado + Total_doutorado) %>%
-  mutate(Species = recode(especie, !!!spnames)) %>%
-  relocate(Species, .before = especie) %>%
-  arrange(Species) %>%
+  mutate(Total = Total_1990s + Total_2000s) %>%
+  arrange(sp_name) %>%
   adorn_totals()
   
 write_csv(tab, "./outputs/01_tab_periods.csv")
@@ -58,12 +41,10 @@ write_csv(tab, "./outputs/01_tab_periods.csv")
 
 # comparing abundances by period ------------------------------------------
 
-study_spnames <- c("L. intermedia", "L. migonei", "L. fischeri", "L. whitmani")
-
 abund <- spdata %>%
-  filter(especie %in% study_spnames) %>%
-  mutate(Period = recode(dout_mest, "mestrado" = "1993-1994", "doutorado" = "2001-2003"),
-         Species = recode(especie, !!!spnames))
+  filter(sp_code %in% study_spcodes) %>%
+  rename(Species = sp_name) %>%
+  mutate(Period = recode(period, "1990s" = "1992-1994", "2000s" = "2001-2003")) 
 
 tiff(filename = "./outputs/01_plot_period.tif",
      width = 1400, height = 1300, units = "px",
@@ -78,90 +59,64 @@ ggplot(abund, aes(x = Species, y = total, fill = Period)) +
   xlab("") + ylab("Number of sand flies")
 dev.off()
 
-t_test <- matrix(nrow=5, ncol=6)
-colnames(t_test) <- c("total_mest", "total_dout", "n_obs", "t", "df", "p-value")
-rownames(t_test) <- c(study_spnames, "total")
-for(i in 1:4){
-  a <- filter(abund, especie == study_spnames[i], dout_mest == "mestrado")
-  d <- filter(abund, especie == study_spnames[i], dout_mest == "doutorado")
+
+# testing for difference in abundande/periods -----------------------------
+
+t_test <- matrix(nrow = length(study_spcodes), ncol=7)
+colnames(t_test) <- c("species", "total_1990s", "total_2000s", "n_obs", "t", "df", "p-value")
+for(i in 1:length(study_spcodes)){
+  a <- filter(abund, sp_code == study_spcodes[i], period == "1990s")
+  d <- filter(abund, sp_code == study_spcodes[i], period == "2000s")
   t <- t.test(a$total, d$total)
-  t_test[i,1] <- sum(a$total)
-  t_test[i,2] <- sum(d$total)
-  t_test[i,3] <- nrow(a) + nrow(d)
-  t_test[i,4] <- round(t$statistic, digits = 3)
-  t_test[i,5] <- round(t$parameter, digits = 3)
-  t_test[i,6] <- round(t$p.value, digits = 3)
+  t_test[i,1] <- study_spnames[i]
+  t_test[i,2] <- sum(a$total)
+  t_test[i,3] <- sum(d$total)
+  t_test[i,4] <- nrow(a) + nrow(d)
+  t_test[i,5] <- round(t$statistic, digits = 3)
+  t_test[i,6] <- round(t$parameter, digits = 3)
+  t_test[i,7] <- round(t$p.value, digits = 3)
 }
-c <- filter(spdata, dout_mest == "mestrado")
-e <- filter(spdata, dout_mest == "doutorado")
-t <- t.test(c$total, e$total)
-t_test[5,1] <- sum(c$total)
-t_test[5,2] <- sum(e$total)
-t_test[5,3] <- nrow(c) + nrow(e)
-t_test[5,4] <- round(t$statistic, digits = 3)
-t_test[5,5] <- round(t$parameter, digits = 3)
-t_test[5,6] <- round(t$p.value, digits = 3)
 
-t_test <- data.frame(especie = row.names(t_test), t_test)
-write_csv(t_test, "./outputs/01_tab_t-test.csv")
-
-
-# counts by sex -----------------------------------------------------------
-
-tab1 <- spdata %>%
-  filter(dout_mest == "doutorado",
-         especie != "negativa") %>%
-  group_by(especie) %>%
-  summarize(femeas = sum(femeas),
-            machos = sum(machos),
-            total = sum(total)) %>%
-  arrange(desc(total))
-
-write_csv(tab1, "./outputs/01_tab_sex.csv")
-
+write_csv(as_tibble(t_test), "./outputs/01_tab_t-test.csv")
 
 
 # monthly abundance -------------------------------------------------------
 
-spp_total_mes <- abund %>%
-  filter(dout_mest == "doutorado") %>%
-  dplyr::select(especie, mes, total) %>%
-  filter(especie != "negativa") %>%
-  drop_na() %>%
-  group_by(especie, mes) %>%
+monthly_abund <- abund %>%
+  filter(period == "2000s",
+         sp_code != "negative") %>%
+  group_by(Species, month) %>%
   summarise(total = sum(total))
 
 # all species in a single plot
 
-levels(spp_total_mes$especie) <- study_spnames
+levels(monthly_abund$Species) <- study_spnames
 
 tiff(filename = "./outputs/01_plot_seasonality.tif",
      width = 1400, height = 1800, units = "px",
      res = 300,
      pointsize = 12,
      compression = "lzw")
-ggplot(spp_total_mes, aes(x = mes, y = total)) +
+ggplot(monthly_abund, aes(x = month, y = total)) +
   geom_line() + xlab("") + ylab("Number of sand flies") + 
-  geom_vline(xintercept = 16283, linetype="dashed", color = "gray") +
-  facet_wrap(~ especie, nrow = 4) +
+  facet_wrap(~ Species, nrow = 4) +
   theme(strip.text = element_text(face = "italic"))
 dev.off()
 
-# few consistent observations to use this seasonality plot
+# few consistent observations to use this seasonality plot in manuscript
 
 
 # counts by trap type -----------------------------------------------------
 
 tab2 <- spdata %>%
-  filter(#dout_mest == "doutorado",
-         especie != "negativa") %>%
-  group_by(especie, tipo) %>%
+  filter(sp_code != "negative") %>%
+  group_by(sp_name, trap_type) %>%
   summarise(total = sum(total)) %>%
   drop_na() %>%
-  pivot_wider(names_from = tipo, 
+  pivot_wider(names_from = trap_type, 
               values_from = total) %>%
-  replace_na(list(luminosa = 0, manual = 0)) %>%
-  mutate(total = luminosa + manual) %>%
+  replace_na(list(light = 0, manual = 0)) %>%
+  mutate(total = light + manual) %>%
   arrange(desc(total)) %>%
   adorn_totals()
 
@@ -169,15 +124,15 @@ write_csv(tab2, "./outputs/01_tab_trap_type.csv")
 
 
 plot2data <- spdata %>%
-  filter(especie != "negativa",
-         especie != "L. sp",
-         especie != "B. sp",
-         tipo != "NA") %>%
-  group_by(especie, tipo) %>%
+  filter(sp_code != "negative",
+         sp_code != "L_sp",
+         sp_code != "B_sp",
+         trap_type != "NA") %>%
+  group_by(sp_name, trap_type) %>%
   summarise(total = sum(total)) %>%
+  rename(Species = sp_name) %>%
   mutate(percent = total/sum(total),
-         Species = recode(especie, !!!spnames),
-         Method = recode(tipo, "luminosa" = "Light trap", "manual" = "Manual capture")) %>%
+         Method = recode(trap_type, "light" = "Light trap", "manual" = "Manual capture")) %>%
   drop_na()
 
 
@@ -200,31 +155,29 @@ dev.off()
 # counts by urban/rural zone ----------------------------------------------
 
 tab3 <- spdata %>%
-  filter(#dout_mest == "doutorado",
-         especie != "negativa") %>%
-  group_by(especie, area) %>%
+  filter(sp_code != "negative") %>%
+  group_by(sp_name, zone) %>%
   summarise(total = sum(total)) %>%
   drop_na() %>%
-  pivot_wider(names_from = area, 
+  pivot_wider(names_from = zone, 
               values_from = total) %>%
-  replace_na(list(semiurbano = 0, rural = 0)) %>%
-  mutate(total = semiurbano + rural) %>%
+  replace_na(list(semiurban = 0, rural = 0)) %>%
+  mutate(total = semiurban + rural) %>%
   arrange(desc(total))
 
 write_csv(tab3, "./outputs/01_tab_zones.csv")
 
 
 plot3data <- spdata %>%
-  filter(especie != "negativa",
-         especie != "L. sp",
-         especie != "B. sp",
-         area != "NA",
-         especie != "L. antunesi") %>%
-  group_by(especie, area) %>%
+  filter(sp_code != "negative",
+         sp_code != "L_sp",
+         sp_code != "B_sp",
+         zone != "NA") %>%
+  group_by(sp_name, zone) %>%
   summarise(total = sum(total)) %>%
+  rename(Species = sp_name) %>%
   mutate(percent = total/sum(total),
-         Species = recode(especie, !!!spnames),
-         Zone = recode(area, "rural" = "Rural", "semiurbano" = "Semi-urban")) %>%
+         Zone = recode(zone, "rural" = "Rural", "semiurban" = "Semiurban")) %>%
   drop_na()
 
 tiff(filename = "./outputs/01_plot_zones.tif",
@@ -246,11 +199,10 @@ dev.off()
 # counts by distance to forest border -------------------------------------
 
 tab4 <- spdata %>%
-  filter(dout_mest == "doutorado",
-         especie != "negativa") %>%
-  group_by(especie, distancia_casa_mata) %>%
+  filter(sp_code != "negative") %>%
+  group_by(sp_name, distance_to_forest) %>%
   summarise(total = sum(total)) %>%
-  pivot_wider(names_from = distancia_casa_mata, 
+  pivot_wider(names_from = distance_to_forest, 
               values_from = total) %>%
   replace_na(list("0-200" = 0,
                   "200-500" = 0,
@@ -258,7 +210,6 @@ tab4 <- spdata %>%
                   "500-1000" = 0))
 
 write_csv(tab4, "./outputs/01_tab_distance_forest.csv")
-
 
 
 # counts by ecotope -------------------------------------------------------
@@ -275,25 +226,18 @@ ecotopes <- c("intra_isca_humana" = "intra",
              "anexo" = "parede_externa")
 
 tab5 <- spdata %>%
-  filter(#dout_mest == "doutorado",
-         especie != "negativa",
-         especie != "L. sp",
-         local != "A/GL",
-         local != "BN/CR",
-         local != "NA") %>%
-  mutate(Ecotope = recode(local, !!!ecotopes),
-         Species = recode(especie, !!!spnames)) %>%
-  filter(Ecotope != "isca_humana") %>%
-  group_by(Species, Ecotope) %>%
+  filter(sp_code != "negative",
+         sp_code != "L_sp",
+         ecotope != "mixed_peridomestic",
+         ecotope != "NA") %>%
+  group_by(sp_name, ecotope) %>%
   summarise(total = sum(total)) %>%
-  pivot_wider(names_from = Ecotope, 
+  pivot_wider(names_from = ecotope, 
               values_from = total) %>%
   replace(., is.na(.), 0) %>%
-  relocate("intra", .after = "Species") %>%
-  relocate("parede_externa", .after = "intra") %>%
-  #select(-"isca_humana") %>%
-  arrange("Species")
-    
+  relocate(internal_wall, .after = sp_name) %>%
+  relocate(external_wall, .after = internal_wall)
+
 tab5_percent <- tab5 %>%
   adorn_percentages("row") %>%
   adorn_pct_formatting(digits = 0) %>%

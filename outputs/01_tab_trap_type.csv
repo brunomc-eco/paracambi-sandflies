@@ -1,16 +1,16 @@
-especie,luminosa,manual,total
-L. intermedia,6703,5340,12043
-L. migonei,358,96,454
-L. fischeri,202,99,301
-L. whitmani,23,25,48
-L. sp,9,7,16
-L. pelloni,6,0,6
-L. pessoai,3,1,4
-B. brumpti,3,0,3
-L. monticola,1,2,3
-L. shannoni,0,3,3
-L. hirsuta,0,2,2
-B. sp,1,0,1
-L. cortelezzii,1,0,1
-L. sordelli,1,0,1
+sp_name,light,manual,total
+Nyssomyia intermedia*,6703,5340,12043
+Migonemyia migonei*,358,96,454
+Pintomyia fischeri*,202,99,301
+Nyssomyia whitmani*,23,25,48
+Unidentified,9,7,16
+Psathyromyia pelloni,6,0,6
+Pintomyia pessoai,3,1,4
+Brumptomyia brumpti,3,0,3
+Pintomyia monticola,1,2,3
+Psathyromyia shannoni,0,3,3
+Psychodopygus hirsutus hirsutus,0,2,2
+Brumptomyia sp.,1,0,1
+Evandromyia cortelezzii,1,0,1
+Sciopemyia sordellii,1,0,1
 Total,7311,5575,12886

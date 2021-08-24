@@ -1,13 +1,14 @@
-Species,intra,parede_externa,bananal,arvore,galinheiro,chiqueiro,curral
+sp_name,internal_wall,external_wall,banana,tree,chicken_coop,pigsty,corral
 Brumptomyia brumpti,0,0,1,0,0,0,0
 Brumptomyia sp.,0,0,0,1,0,0,0
 Evandromyia cortelezzii,0,0,0,0,1,0,0
-Migonemyia migonei*,99,41,139,71,95,3,0
-Nyssomyia intermedia*,2503,2051,5309,778,762,33,155
-Nyssomyia whitmani*,11,3,14,6,3,0,2
-Pintomyia fischeri*,38,32,114,39,49,0,2
-Pintomyia monticola,0,0,1,0,0,0,0
+Migonemyia migonei*,99,41,140,71,95,3,0
+Nyssomyia intermedia*,2503,2160,5502,813,762,33,155
+Nyssomyia whitmani*,11,3,23,6,3,0,2
+Pintomyia fischeri*,38,37,127,48,49,0,2
+Pintomyia monticola,0,0,3,0,0,0,0
 Pintomyia pessoai,0,1,1,2,0,0,0
 Psathyromyia pelloni,0,0,0,0,6,0,0
-Psathyromyia shannoni,2,0,0,0,0,0,0
+Psathyromyia shannoni,2,0,1,0,0,0,0
+Psychodopygus hirsutus hirsutus,0,0,2,0,0,0,0
 Sciopemyia sordellii,0,0,0,0,1,0,0

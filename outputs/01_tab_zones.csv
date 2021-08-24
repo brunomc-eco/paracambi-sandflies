@@ -1,12 +1,11 @@
-especie,rural,semiurbano,total
-L. intermedia,2185,5176,7361
-L. migonei,143,192,335
-L. fischeri,54,18,72
-L. whitmani,11,5,16
-L. pelloni,6,1,7
-B. brumpti,2,2,4
-B. nitzulescui,0,4,4
-L. sordelli,1,1,2
-L. antunesi,0,1,1
-L. cortelezzii,1,0,1
-L. schreiberi,0,1,1
+sp_name,rural,semiurban,total
+Nyssomyia intermedia*,2185,5176,7361
+Migonemyia migonei*,143,192,335
+Pintomyia fischeri*,54,18,72
+Nyssomyia whitmani*,11,5,16
+Psathyromyia pelloni,6,1,7
+Brumptomyia brumpti,2,2,4
+Brumptomyia nitzulescui,0,4,4
+Sciopemyia sordellii,1,1,2
+Evandromyia cortelezzii,1,0,1
+Micropygomyia schreiberi,0,1,1

@@ -1,19 +1,18 @@
-Species,especie,F_doutorado,F_mestrado,M_doutorado,M_mestrado,Total_doutorado,Total_mestrado,Total
-Brumptomyia brumpti,B. brumpti,2,0,2,0,4,0,4
-Brumptomyia nitzulescui,B. nitzulescui,0,0,4,0,4,0,4
-Brumptomyia sp.,B. sp,0,1,0,0,0,1,1
-Evandromyia cortelezzii,L. cortelezzii,0,0,1,0,1,0,1
-Micropygomyia schreiberi,L. schreiberi,0,0,1,0,1,0,1
-Migonemyia migonei*,L. migonei,135,81,200,226,335,307,642
-Nyssomyia antunesi,L. antunesi,1,0,0,0,1,0,1
-Nyssomyia intermedia*,L. intermedia,2945,4263,4416,4546,7361,8809,16170
-Nyssomyia whitmani*,L. whitmani,8,27,8,10,16,37,53
-Pintomyia fischeri*,L. fischeri,66,229,6,18,72,247,319
-Pintomyia monticola,L. monticola,0,3,0,0,0,3,3
-Pintomyia pessoai,L. pessoai,0,4,0,0,0,4,4
-Psathyromyia pelloni,L. pelloni,0,0,7,0,7,0,7
-Psathyromyia shannoni,L. shannoni,0,1,0,2,0,3,3
-Psychodopygus hirsutus hirsutus ,L. hirsuta,0,2,0,0,0,2,2
-Sciopemyia sordellii,L. sordelli,2,0,0,0,2,0,2
-Unidentified,L. sp,0,16,0,0,0,16,16
-Total,-,3159,4627,4645,4802,7804,9429,17233
+sp_name,F_2000s,F_1990s,M_2000s,M_1990s,Total_2000s,Total_1990s,Total
+Brumptomyia brumpti,2,0,2,0,4,0,4
+Brumptomyia nitzulescui,0,0,4,0,4,0,4
+Brumptomyia sp.,0,1,0,0,0,1,1
+Evandromyia cortelezzii,0,0,1,0,1,0,1
+Micropygomyia schreiberi,0,0,1,0,1,0,1
+Migonemyia migonei*,135,81,200,226,335,307,642
+Nyssomyia intermedia*,2945,4263,4416,4546,7361,8809,16170
+Nyssomyia whitmani*,8,27,8,10,16,37,53
+Pintomyia fischeri*,66,229,6,18,72,247,319
+Pintomyia monticola,0,3,0,0,0,3,3
+Pintomyia pessoai,0,4,0,0,0,4,4
+Psathyromyia pelloni,0,0,7,0,7,0,7
+Psathyromyia shannoni,0,1,0,2,0,3,3
+Psychodopygus hirsutus hirsutus,0,2,0,0,0,2,2
+Sciopemyia sordellii,2,0,0,0,2,0,2
+Unidentified,0,16,0,0,0,16,16
+Total,3158,4627,4645,4802,7803,9429,17232
