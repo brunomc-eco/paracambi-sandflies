@@ -18,7 +18,8 @@ spdata <- read_csv("./data/sandfly_data_paracambi_analysis.csv",
                                    period = col_factor(levels = c("1990s", "2000s"))))
 
 study_spcodes <- c("intermedia", "migonei", "fischeri", "whitmani")
-study_spnames <- c("Nyssomyia intermedia*", "Migonemyia migonei*", "Pintomyia fischeri*", "Nyssomyia whitmani*")
+study_spnames <- c("Nyssomyia intermedia*", "Migonemyia migonei*", 
+                   "Pintomyia fischeri*", "Nyssomyia whitmani*")
 
 
 # species and counts by period --------------------------------------------
@@ -63,7 +64,8 @@ dev.off()
 # testing for difference in abundande/periods -----------------------------
 
 t_test <- matrix(nrow = length(study_spcodes), ncol=7)
-colnames(t_test) <- c("species", "total_1990s", "total_2000s", "n_obs", "t", "df", "p-value")
+colnames(t_test) <- c("species", "total_1990s", "total_2000s", 
+                      "n_obs", "t", "df", "p-value")
 for(i in 1:length(study_spcodes)){
   a <- filter(abund, sp_code == study_spcodes[i], period == "1990s")
   d <- filter(abund, sp_code == study_spcodes[i], period == "2000s")
@@ -121,7 +123,6 @@ tab2 <- spdata %>%
   adorn_totals()
 
 write_csv(tab2, "./outputs/01_tab_trap_type.csv")
-
 
 plot2data <- spdata %>%
   filter(sp_code != "negative",

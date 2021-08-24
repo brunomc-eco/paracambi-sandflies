@@ -7,7 +7,6 @@ library(readr)
 library(dplyr)
 library(tidyr)
 library(raster)
-library(rgdal)
 library(data.table)
 
 

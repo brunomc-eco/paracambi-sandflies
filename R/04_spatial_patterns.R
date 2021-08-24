@@ -6,9 +6,8 @@
 library(spatialEco)
 library(readr)
 library(dplyr)
-#library(tidyr)
+library(tidyr)
 library(raster)
-#library(rgdal)
 
 
 # loading data ------------------------------------------------------------
@@ -65,5 +64,5 @@ kernel_map_freq <- sp.kde(points, y = points$freq_log, bw = 0.02, newdata = mapb
 kernel_map_n <- sp.kde(points, y = points$n_log, bw = 0.02, newdata = mapbiomas)
 
 # saving output
-writeRaster(kernel_map_freq, "./outputs/04_kernel_freq_log.tif")
-writeRaster(kernel_map_n, "./outputs/04_kernel_n_log.tif")
+writeRaster(kernel_map_freq, "./outputs/04_kernel_freq_log.tif", overwrite = TRUE)
+writeRaster(kernel_map_n, "./outputs/04_kernel_n_log.tif", overwrite = TRUE)
