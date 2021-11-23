@@ -20,7 +20,7 @@ study_spnames <- c("Nyssomyia intermedia*", "Nyssomyia whitmani*",
 
 # calculate relative sand fly frequencies by point/year -------------------
 
-# sampling effort
+# sampling effort by point
 sampl <- spdata %>%
   filter(str_starts(point_year_id, "_") == FALSE) %>%
   group_by(point_year_id) %>%
@@ -34,6 +34,11 @@ spp_freq <- spdata %>%
   summarize(n = sum(total)) %>%
   left_join(sampl, by = "point_year_id") %>%
   mutate(freq = round(n/effort, 2)) 
+
+# sampling effort by period
+sampl_per <- spdata %>%
+  group_by(period) %>%
+  summarize(effort = n_distinct(month))
 
 
 # join species and land cover data ----------------------------------------
