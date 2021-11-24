@@ -83,29 +83,41 @@ write_csv(as_tibble(t_test), "./outputs/01_tab_t-test.csv")
 
 
 # monthly abundance -------------------------------------------------------
+month_levels <- c("Jan", "Feb", "Mar", "Apr", "May", "Jun", 
+                  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
-monthly_abund <- abund %>%
-  filter(period == "2000s",
-         sp_code != "negative") %>%
-  group_by(Species, month) %>%
-  summarise(total = sum(total))
+monthly_effort <- tibble(month_number = seq(1:12),
+                         month_name = factor(c("Jan", "Feb", "Mar", "Apr",
+                                        "May", "Jun", "Jul", "Aug",
+                                        "Sep", "Oct", "Nov", "Dec"),
+                                        levels = month_levels),
+                         trapnights = c(6,3,5,6,4,5,6,6,6,6,6,6))
+
+monthly_abund_1990s <- abund %>%
+  mutate(month_number = as.numeric(format(month, "%m"))) %>%
+  group_by(Species, month_number) %>%
+  summarise(total = sum(total)) %>%
+  left_join(monthly_effort, by = "month_number") %>%
+  mutate(rel_abund = total/trapnights)
+
+write_csv(monthly_abund_1990s, "./outputs/01_monthly_abund_1990s.csv")
 
 # all species in a single plot
 
-levels(monthly_abund$Species) <- study_spnames
+levels(monthly_abund_1990s$Species) <- study_spnames
 
 tiff(filename = "./outputs/01_plot_seasonality.tif",
      width = 1400, height = 1800, units = "px",
      res = 300,
      pointsize = 12,
      compression = "lzw")
-ggplot(monthly_abund, aes(x = month, y = total)) +
-  geom_line() + xlab("") + ylab("Number of sand flies") + 
-  facet_wrap(~ Species, nrow = 4) +
+ggplot(monthly_abund_1990s, aes(x = month_name, y = rel_abund)) +
+  geom_col() + xlab("") + ylab("Relative abundance") + 
+  facet_wrap(~ Species, nrow = 4, scales = 'free') +
   theme(strip.text = element_text(face = "italic"))
 dev.off()
 
-# few consistent observations to use this seasonality plot in manuscript
+# few consistent observations to use the seasonality plot for 2000s
 
 
 # counts by trap type -----------------------------------------------------
