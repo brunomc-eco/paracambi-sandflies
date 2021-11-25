@@ -94,26 +94,30 @@ monthly_effort <- tibble(month_number = seq(1:12),
                          trapnights = c(6,3,5,6,4,5,6,6,6,6,6,6))
 
 monthly_abund_1990s <- abund %>%
-  mutate(month_number = as.numeric(format(month, "%m"))) %>%
-  group_by(Species, month_number) %>%
+  mutate(month_number = as.numeric(format(month, "%m")),
+         spp = recode(Species, "Nyssomyia intermedia*" = "Nyssomyia intermedia", 
+                      "Migonemyia migonei*" = "Migonemyia migonei", 
+                      "Pintomyia fischeri*" = "Pintomyia fischeri",
+                      "Nyssomyia whitmani*" = "Nyssomyia whitmani" )) %>%
+  group_by(spp, month_number) %>%
   summarise(total = sum(total)) %>%
   left_join(monthly_effort, by = "month_number") %>%
-  mutate(rel_abund = total/trapnights)
+  mutate(rel_abund = total/trapnights) %>%
+  group_by(spp, month_name) %>%
+  summarise(mean_abund = mean(rel_abund))
 
 write_csv(monthly_abund_1990s, "./outputs/01_monthly_abund_1990s.csv")
 
 # all species in a single plot
-
-levels(monthly_abund_1990s$Species) <- study_spnames
 
 tiff(filename = "./outputs/01_plot_seasonality.tif",
      width = 1400, height = 1800, units = "px",
      res = 300,
      pointsize = 12,
      compression = "lzw")
-ggplot(monthly_abund_1990s, aes(x = month_name, y = rel_abund)) +
-  geom_col() + xlab("") + ylab("Relative abundance") + 
-  facet_wrap(~ Species, nrow = 4, scales = 'free') +
+ggplot(monthly_abund_1990s, aes(x = month_name, y = mean_abund)) +
+  geom_col() + xlab("") + ylab("Mean relative abundance") + 
+  facet_wrap(~ spp, nrow = 4, scales = 'free') +
   theme(strip.text = element_text(face = "italic"))
 dev.off()
 
