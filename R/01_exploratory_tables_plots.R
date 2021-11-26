@@ -144,6 +144,7 @@ plot2data <- spdata %>%
   filter(sp_code != "negative",
          sp_code != "L_sp",
          sp_code != "B_sp",
+         sp_code != "shannoni",
          trap_type != "NA") %>%
   group_by(sp_name, trap_type) %>%
   summarise(total = sum(total)) %>%
